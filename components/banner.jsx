@@ -20,6 +20,22 @@ const banner = () => {
         width={300}
         height={300}
       />
+        {/* <Image
+        src="https://i.postimg.cc/MZc4kDkp/circle.png"
+        className="circle1"
+        alt="Circle"
+        width={300}
+        height={300}
+      /> */}
+
+<Image
+        src="https://i.postimg.cc/WpQyskj6/triangle-left.png"
+        className="triangle3"
+        alt="Triangle Left"
+        width={300}
+        height={300}
+      />
+
       <Image
         src="https://i.postimg.cc/MZc4kDkp/circle.png"
         className="circle"
@@ -50,7 +66,7 @@ const banner = () => {
         <h1 className="text-5xl font-bold mb-3">
           Delivering Game-Changing <br /> Marketing Solutions
         </h1>
-        <h3 className=" text-xl font-medium text-gray-100">
+        <h3 className="text-xl font-medium text-gray-100">
           Grow your brand faster with our cutting-edge marketing solutions.
         </h3>
         <div className="text-center flex justify-center">
