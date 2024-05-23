@@ -27,15 +27,47 @@ const Feedback = () => {
       rating: 5,
       timestamp: new Date(),
       feedback: "Suspendisse potenti. Sed sit amet interdum nisl. Vivamus euismod erat et orci eleifend, vitae suscipit mauris aliquam."
+    },
+    {
+      _id: 3,
+      photo: "https://i.postimg.cc/4x12v2cB/triangle-top.png",
+      reviewerName: "Jane Smith",
+      rating: 5,
+      timestamp: new Date(),
+      feedback: "Suspendisse potenti. Sed sit amet interdum nisl. Vivamus euismod erat et orci eleifend, vitae suscipit mauris aliquam."
+    },
+    {
+      _id: 4,
+      photo: "https://i.postimg.cc/4x12v2cB/triangle-top.png",
+      reviewerName: "Jane Smith",
+      rating: 5,
+      timestamp: new Date(),
+      feedback: "Suspendisse potenti. Sed sit amet interdum nisl. Vivamus euismod erat et orci eleifend, vitae suscipit mauris aliquam."
+    },
+    {
+      _id: 5,
+      photo: "https://i.postimg.cc/4x12v2cB/triangle-top.png",
+      reviewerName: "Jane Smith",
+      rating: 5,
+      timestamp: new Date(),
+      feedback: "Suspendisse potenti. Sed sit amet interdum nisl. Vivamus euismod erat et orci eleifend, vitae suscipit mauris aliquam."
+    }, 
+    {
+      _id: 6,
+      photo: "https://i.postimg.cc/4x12v2cB/triangle-top.png",
+      reviewerName: "Jane Smith",
+      rating: 5,
+      timestamp: new Date(),
+      feedback: "Suspendisse potenti. Sed sit amet interdum nisl. Vivamus euismod erat et orci eleifend, vitae suscipit mauris aliquam."
     }
   ];
 
   return (
     <div className="py-10">
-      <h1>Traders Testimonial</h1>
-      <h3>
-        Hear from traders who've found success with us. Dive into their stories and see how our platform has helped them thrive in the markets.
-      </h3>
+       <div>
+            <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">Meet the Team behind Anolipi Digital</h1>
+            <h3 className="text-center text-[#d5d7dd] font-medium mb-8">Discover essential tools for successful trading. From market insights to user-friendly platforms, we offer everything you need to trade with confidence.</h3>
+        </div>
       <Swiper
         slidesPerView={20}
         spaceBetween={5}
@@ -58,6 +90,7 @@ const Feedback = () => {
             spaceBetween: 20,
           },
         }}
+        modules={[Autoplay]}
       >
         {staticData.map((review) => (
           <SwiperSlide key={review._id}>
