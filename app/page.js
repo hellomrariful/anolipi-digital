@@ -1,16 +1,8 @@
 import Image from 'next/image';
-import Head from 'next/head';
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        {/* Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-      
-      </Head>
-
       <div className="hero">
         <Image 
           src="https://i.postimg.cc/4x12v2cB/triangle-top.png" 
