@@ -30,7 +30,7 @@ const banner = () => {
       
       {/* Banner Text */}
       <div className="mt-36 text-center">
-        <button class="mb-5 mt-5 justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-[#810def] text-white px-6 py-3 inline-flex items-center space-x-2 rounded">
+        <button class="mb-5 justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-[#810def] text-white px-6 py-3 inline-flex items-center space-x-2 rounded">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -54,7 +54,7 @@ const banner = () => {
           Grow your brand faster with our cutting-edge marketing solutions.
         </h3>
         <div className="text-center flex justify-center">
-        <Button
+        <Button className="mt-5"
       icon={
         <svg
           xmlns="http://www.w3.org/2000/svg"
