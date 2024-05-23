@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Button from "./Button";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -35,10 +36,10 @@ const Navbar = () => {
           </span>
         </Link>
         <div className="flex items-center md:order-2">
-          <Link href="/login">
-            <button className="md:px-6 rounded bg-[#A1F65E] md:py-3 text-xl px-3 py-2 mr-1">
-              Get Started
-            </button>
+          <Link href="/">
+            <Button>
+            Get Quote
+            </Button>
           </Link>
           <button
             data-collapse-toggle="navbar-user"
