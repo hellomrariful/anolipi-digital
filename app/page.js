@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div>
-      <div className="hero">
+    <div className='hero'>
+      <div className="mx-auto container">
         <Image 
           src="https://i.postimg.cc/4x12v2cB/triangle-top.png" 
           className="triangle1" 
@@ -26,7 +26,7 @@ export default function Home() {
           height={300} 
         />
 
-        <nav>
+        <nav className='flex items-center p-7'>
        
           {/* <div className='mr-3'>
         
@@ -39,7 +39,7 @@ export default function Home() {
         />
           </div> */}
           <h1 className="font-semibold text-4xl">Anolipi<span className=' text-yellow-600'>.</span></h1>
-          <ul>
+          <ul className='flex-1 text-right'>
             <li><a href="/">Home</a></li>
             <li><a href="/">Portfolio</a></li>
             <li><a href="/">Clients</a></li>
@@ -49,7 +49,7 @@ export default function Home() {
           <a href="/" className="btn">Get A Quote</a>
         </nav>
 
-        <div className="row">
+        <div className="flex  flex-wrap mt-20 justify-between">
           <div className="col-1">
             <Image 
               src="https://i.postimg.cc/15wjX33x/man.png" 
@@ -67,10 +67,10 @@ export default function Home() {
           </div>
 
           <div className="col-2">
-            <h1>
-            Transforming Your <br /> <span>Vision</span> With Us!
+            <h1 className='text-6xl font-bold'>
+            Transforming Your <br /> <span className=' text-yellow-500'>Vision</span> With Us!
             </h1>
-            <p>We provide innovative digital marketing solutions designed to enhance your brand&apos;s presence and drive business growth. Partner with us to transform your vision into reality with tailored strategies and expert execution.</p>
+            <p className='w-[580px] mt-3 mb-7'>We provide innovative digital marketing solutions designed to enhance your brand&apos;s presence and drive business growth. Partner with us to transform your vision into reality with tailored strategies and expert execution.</p>
             <a href="/" className="btn">Schedule A Meeting</a>
           </div>
         </div>

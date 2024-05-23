@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body lassName="font-montserrat bg-quaternary text-zinc-100"
+      <body className="font-montserrat text-zinc-100"
         suppressHydrationWarning={true}>{children}</body>
     </html>
   );
