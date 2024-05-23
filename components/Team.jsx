@@ -9,8 +9,8 @@ const Team = () => {
   return (
     <div className="mt-20 text-center">
         <div>
-            <h1 className="text-4xl font-bold mb-3">Meet the Team behind Anolipi Digital</h1>
-            <h3 className="text-[18px] font-medium text-gray-100 mb-8">Grow your brand faster with our cutting-edge marketing solutions.</h3>
+            <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">Meet the Team behind Anolipi Digital</h1>
+            <h3 className="text-center text-[#d5d7dd] font-medium mb-8">Discover essential tools for successful trading. From market insights to user-friendly platforms, we offer everything you need to trade with confidence.</h3>
         </div>
       <div
         data-aos="fade-up"
