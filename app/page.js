@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import Team from '@/components/Team';
 import Service from '@/components/Service';
 import CTA from '@/components/CTA';
+import Feedback from '@/components/Feedback';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <Service />
           <Team />
           <CTA />
+          <Feedback />
         </div>
       </div>
 
