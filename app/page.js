@@ -6,6 +6,7 @@ import Service from '@/components/Service';
 import CTA from '@/components/CTA';
 import Feedback from '@/components/Feedback';
 import Map from '@/components/Map/Map';
+import Impact from '@/components/Impact';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Team />
           <CTA />
           <Feedback />
+          <Impact />
           <Map />
         </div>
       </div>
