@@ -3,6 +3,7 @@ import Banner from '@/components/Banner';
 import Footer from '@/components/Footer';
 import Team from '@/components/Team';
 import Service from '@/components/Service';
+import CTA from '@/components/CTA';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           <Banner />
           <Service />
           <Team />
+          <CTA />
         </div>
       </div>
 
