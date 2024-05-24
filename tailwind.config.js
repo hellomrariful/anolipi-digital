@@ -8,20 +8,24 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#40a0ff', //blue
-        secondary: '#3aba69', // green
-        tertiary: '#f65455', // red
+        primary: '#343f75', //blue logo
+        secondary: '#ffc111', // yellow logo
+        tertiary: '#810def', // purple new
+        darkGray: '#939db1', // gray  
+        
         quaternary: '#fca104', // orange
         quinary: '#17171e',
-        darkGray: '#939db1', // gray  
+
         darkOne: '#1d2334',
         darkTwo: '#212a3f',
         darkThree: '#2c3750',
       },
       backgroundColor: {
-        primary: '#40a0ff', //blue
-        secondary: '#17171e',
-        tertiary: '#21212f',
+        primary: '#343f75', //blue logo
+        secondary: '#ffc111',  //yellow logo
+        tertiary: '#810def', // purple new
+
+
         quaternary: '#181e2c',
         quinary: '#fca104', // orange
         senary: '#3aba69', // green

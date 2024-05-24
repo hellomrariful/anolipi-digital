@@ -2,6 +2,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import Button from "./Button";
+import { GoSquareFill } from "react-icons/go";
+
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,19 +15,20 @@ const Navbar = () => {
   const NavLinks = (
     <nav className="flex gap-3 md:gap-4 lg:gap-10 lg:text-xl text-[18px]">
       <Link href="/">Home</Link>
-      <Link href="/gallery">Gallery</Link>
-      <Link href="/profile">Profile</Link>
-      <Link href="/register">Register</Link>
+      <Link href="/Contact">Contact</Link>
+      <Link href="/Service">Service</Link>
+      <Link href="/About Us">About Us</Link>
     </nav>
   );
 
   return (
     <nav className="">
       <div className="flex items-center justify-between mx-auto mt-8 mb-10">
-        <Link href="/" className="flex items-center flex-shrink-0">
+        <Link href="/" className="flex flex-shrink-0">
           <span className="self-center md:text-[32px] text-xl font-bold whitespace-nowrap">
             Anolipi Digital
-          </span>
+      </span>
+          <span className="text-[#ffc210] mt-[15px]"><GoSquareFill /></span>
         </Link>
 
         <div className="flex-1  justify-center hidden md:flex">{NavLinks}</div>
@@ -75,13 +78,13 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="block text-gray-900 hover:text-blue-700">
-              <Link href="/gallery">Gallery</Link>
+              <Link href="/Contact">Contact</Link>
             </li>
             <li className="block text-gray-900 hover:text-blue-700">
-              <Link href="/profile">Profile</Link>
+              <Link href="/Service">Service</Link>
             </li>
             <li className="block text-gray-900 hover:text-blue-700">
-              <Link href="/register">Register</Link>
+              <Link href="/About Us">About Us</Link>
             </li>
           </ul>
           <Button className="px-4 text-center flex justify-end mx-auto mb-4">
