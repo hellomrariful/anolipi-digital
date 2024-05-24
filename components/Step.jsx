@@ -1,25 +1,62 @@
 import Image from "next/image";
 import React from "react";
+import Icon1 from "../asset/icon-01.svg";
+import Icon2 from "../asset/icon-02.svg";
+import Icon3 from "../asset/icon-03.svg";
 
 const Step = () => {
   return (
-    <div>
-      {/* cart 1  */}
-      <div className="overflow-hidden 3xl:h-44 transition-all hover:-translate-y-[6px] bg-gradient-to-b from-darkOne to-darkTwo  border border-b-transparent border-darkThree p-6 rounded-xl text-white duration-500 ease-in-out">
-        <div className="w-full flex items-center justify-start gap-3">
+    <div className="mt-10">
+      <div className=" grid grid-cols-3 gap-4">
+        {/* Card 1 */}
+        <div className="flex flex-col items-center p-6  border border-white rounded-xl text-center transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-lg">
+          <Image
+            src={Icon2}
+            alt="Trad Icon"
+            width={50}
+            height={50}
+            className="bg-[#810def] p-3 rounded-sm"
+          />
+
+          <h3 className="text-white font-semibold my-2">Creative Thinking</h3>
+          <p className="text-sm font-medium text-darkGray">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </div>
+
+        {/* Repeat similar card for other content */}
+        {/* Card 2 */}
+        <div className="flex flex-col items-center p-6  border border-white rounded-xl text-center transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-lg">
           <Image
             src={Icon1}
-            alt="Trad Icon"
+            alt="Another Icon"
             width={40}
             height={40}
-            placeholder="blur"
+            className="bg-[#810def] p-3 rounded-sm"
           />
-          <h3 className="font-semibold">Real Time Market Updates</h3>
+          <h3 className="text-white font-semibold mb-2">Perfect Execution</h3>
+          <p className="text-sm font-medium text-darkGray">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
         </div>
-        <p className="text-sm font-medium mt-3 text-darkGray">
-          Get instant updates on market prices, news, and events to make
-          informed decisions.
-        </p>
+
+        {/* Card 3 */}
+        <div className="flex flex-col items-center p-6 border border-white rounded-xl text-center transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-lg">
+          <Image
+            src={Icon3}
+            alt="Yet Another Icon"
+            width={40}
+            height={40}
+            className="bg-[#810def] p-3 rounded-sm"
+          />
+          <h3 className="text-white font-semibold mb-2">Increased Growth</h3>
+          <p className="text-sm font-medium text-darkGray">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+        </div>
       </div>
     </div>
   );

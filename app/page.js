@@ -9,6 +9,7 @@ import Map from '@/components/Map/Map';
 import Impact from '@/components/Impact';
 import WhyAnolipi from '@/components/WhyAnolipi';
 import Expertise from '@/components/Expertise';
+import Step from '@/components/Step';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <div className="mx-auto container">
           <Navbar />
           <Banner />
+          <Step />
           <Service />
           <WhyAnolipi />
           <Expertise />
