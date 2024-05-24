@@ -7,7 +7,7 @@ import Icon3 from "../asset/icon-03.svg";
 const Step = () => {
   return (
     <div className="mt-40">
-      <div className=" grid grid-cols-3 gap-4">
+      <div className="grid lg:grid-cols-3 gap-4 grid-cols-1">
         {/* Card 1 */}
         <div className="flex flex-col items-center p-6  border border-white rounded-xl text-center transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-lg">
           <Image
@@ -19,11 +19,10 @@ const Step = () => {
           />
 
           <h3 className="text-white font-medium mb-1 text-xl mt-2">
-            Increased Growth
+          Creative Thinking
           </h3>
           <p className="text-sm font-medium text-darkGray">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
+          Embrace innovation and creativity to elevate your brand&apos;s marketing strategies.
           </p>
         </div>
 
@@ -38,11 +37,10 @@ const Step = () => {
             className="bg-[#810def] p-3 rounded-sm"
           />
           <h3 className="text-white font-medium mb-1 text-xl mt-2">
-            Increased Growth
+          Perfect Execution
           </h3>
           <p className="text-sm font-medium text-darkGray">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
+          Ensure flawless implementation of your marketing campaigns for maximum impact.
           </p>
         </div>
 
@@ -59,8 +57,7 @@ const Step = () => {
             Increased Growth
           </h3>
           <p className="text-sm font-medium text-darkGray">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique.
+          Experience significant growth and expansion through our tailored marketing solutions.
           </p>
         </div>
       </div>

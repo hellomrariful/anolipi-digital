@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   const NavLinks = (
-    <nav className="flex gap-3 md:gap-4 lg:gap-10 lg:text-xl text-[18px]">
+    <nav className="flex gap-3 md:gap-2 lg:gap-10 lg:text-xl text-[18px]">
       <Link href="/">Home</Link>
       <Link href="/Contact">Contact</Link>
       <Link href="/Service">Service</Link>
@@ -25,10 +25,10 @@ const Navbar = () => {
     <nav className="">
       <div className="flex items-center justify-between mx-auto mt-8 mb-10">
         <Link href="/" className="flex flex-shrink-0">
-          <span className="self-center md:text-[32px] text-xl font-bold whitespace-nowrap">
+          <span className="self-center lg:text-[32px] text-xl font-bold whitespace-nowrap">
             Anolipi Digital
       </span>
-          <span className="text-[#ffc210] mt-[15px]"><GoSquareFill /></span>
+          <span className="text-[#ffc210] mt-[15px] sm:hidden"><GoSquareFill /></span>
         </Link>
 
         <div className="flex-1  justify-center hidden md:flex">{NavLinks}</div>
@@ -44,7 +44,7 @@ const Navbar = () => {
           >
             <span className="sr-only">Open main menu</span>
             <svg
-              className={`w-10 h-10 text-black ${
+              className={`w-10 h-10 text-white ${
                 isMobileMenuOpen ? "rotate-180" : ""
               }`}
               aria-hidden="true"
@@ -74,16 +74,16 @@ const Navbar = () => {
           id="navbar-mobile-menu"
         >
           <ul className="flex flex-col p-4 space-y-4 text-center">
-            <li className="block text-gray-900 hover:text-blue-700">
+            <li className="block text-xl font-medium hover:text-secondary">
               <Link href="/">Home</Link>
             </li>
-            <li className="block text-gray-900 hover:text-blue-700">
+            <li className="block text-xl font-medium hover:text-secondary">
               <Link href="/Contact">Contact</Link>
             </li>
-            <li className="block text-gray-900 hover:text-blue-700">
+            <li className="block text-xl font-medium hover:text-secondary">
               <Link href="/Service">Service</Link>
             </li>
-            <li className="block text-gray-900 hover:text-blue-700">
+            <li className="block text-xl font-medium hover:text-secondary">
               <Link href="/About Us">About Us</Link>
             </li>
           </ul>

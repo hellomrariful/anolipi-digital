@@ -4,7 +4,8 @@ const nextConfig = {
       domains: [
         'i.postimg.cc',
         'flaticon.com',
-        'cdn-icons-png.flaticon.com'
+        'cdn-icons-png.flaticon.com',
+        'i.ibb.co'
       ],
     },
   };

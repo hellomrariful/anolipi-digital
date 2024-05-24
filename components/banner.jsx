@@ -46,7 +46,7 @@ const banner = () => {
       
       {/* Banner Text */}
       <div className="mt-36 text-center">
-        <button className="mb-5 justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 bg-[#810def] text-white px-6 py-3 inline-flex items-center space-x-2 rounded">
+        <button className="mb-5 justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-white hover:text-black h-10 bg-[#810def] text-white px-6 py-3 inline-flex items-center space-x-2 rounded">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -57,16 +57,16 @@ const banner = () => {
             strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
-            className="text-white"
+            className=""
           >
             <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
           </svg>
           <span>Drop us a Line and book a Demo</span>
         </button>
-        <h1 className="text-5xl font-bold mb-3">
-          Delivering Game-Changing <br /> Marketing Solutions
+        <h1 className="lg:text-5xl md:text-3xl text-2xl font-bold mb-3">
+          Delivering <span className="text-secondary">Game-Changing</span> <br /> Marketing Solutions
         </h1>
-        <h3 className="text-xl font-medium text-gray-100">
+        <h3 className="md:text-xl text-[18px] font-medium text-gray-100">
           Grow your brand faster with our cutting-edge marketing solutions.
         </h3>
         <div className="text-center flex justify-center">

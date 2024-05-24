@@ -3,11 +3,11 @@ import Button from "./Button";
 
 const CTA = () => {
   return (
-    <div className="mt-32  border-2 border-gray-500 p-6 hover:border-secondary text-darkGray rounded px-10 py-10 text-center">
+    <div className="mt-32 border-2 border-gray-500 p-6 hover:border-secondary text-darkGray rounded px-10 py-10 text-center">
       <h1 className="2xl:text-3xl md:text-2xl text-xl text-center font-semibold text-zinc-100 mb-2">
         Ready to Boost Your Brand?
       </h1>
-      <h3 className="text-center text-[#d5d7dd] font-medium mb-8 mx-20">
+      <h3 className="text-center text-[#d5d7dd] font-medium mb-8 md:mx-20">
         Let&apos;s take your business to new heights in the digital landscape.
         Contact us today to get started on your journey to success!
       </h3>

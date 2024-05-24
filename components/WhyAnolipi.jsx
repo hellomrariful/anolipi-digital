@@ -49,7 +49,7 @@ const WhyAnolipi = () => {
           </h3>
         </div>
       </div>
-      <div className="lg:w-1/2 w-full lg:flex lg:justify-center lg:items-center order-first">
+      <div className="lg:w-1/2 w-full lg:flex lg:justify-center lg:items-center md:order-first">
         <div
           className="relative rounded-2xl overflow-hidden shadow-lg"
           style={{ aspectRatio: "2/2", width: "100%", height: "auto" }}

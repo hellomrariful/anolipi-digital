@@ -5,9 +5,9 @@ import Trainer1 from "../asset/macbook-apple-imac-computer-39284.jpeg";
 
 const Expertise = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-5 mt-32  items-center">
+    <div className="flex flex-col md:flex-row md:gap-3 mt-32 items-center">
       <div className="lg:w-1/2 w-full">
-        <h1 className="text-3xl md:text-4xl font-semibold text-white pb-3">
+        <h1 className="md:text-3xl lg:text-4xl text-2xl font-semibold text-white pb-3">
           Our Areas of Expertise
         </h1>
         <h3 className="text-[#d5d7dd] font-medium mb-8">
@@ -53,12 +53,12 @@ const Expertise = () => {
       </div>
       <div className="lg:w-1/2 w-full lg:flex lg:justify-center lg:items-center">
         <div
-          className="relative rounded-2xl overflow-hidden shadow-lg"
+          className="relative rounded-2xl overflow-hidden shadow-lg mt-8 md:mt-0"
           style={{ aspectRatio: "2/2", width: "100%", height: "auto" }}
         >
           <Image
             className="rounded-2xl"
-            src={Trainer1}
+            src="https://i.ibb.co/zXNPM3c/6369e29270681a668ff733a0-tab-change-image-1.jpg"
             alt="profile-picture"
             fill
             objectFit="cover"

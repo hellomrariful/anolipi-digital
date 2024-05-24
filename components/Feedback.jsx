@@ -70,7 +70,7 @@ const Feedback = () => {
         <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">
         Client Success Stories
         </h1>
-        <h3 className="text-center text-[#d5d7dd] font-medium mb-8 mx-20">
+        <h3 className="text-center text-[#d5d7dd] font-medium mb-8 md:mx-20">
         Hear directly from our satisfied clients. Discover what our clients have to say.
         </h3>
       </div>

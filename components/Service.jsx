@@ -14,7 +14,7 @@ const Service = () => {
         <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">
         Services We Provide
         </h1>
-        <h3 className="text-center text-[#d5d7dd] font-medium mb-8 mx-20">
+        <h3 className="text-center text-[#d5d7dd] font-medium mb-8 lg:mx-20">
         Maximize your business growth with our expert digital services. From strategic insights to seamless implementation, we provide everything you need for online success.
         </h3>
       </div>
