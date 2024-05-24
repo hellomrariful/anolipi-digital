@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="text-white">
       <div className="">
-        <footer className="bg-[#1B2129]">
+        <footer className="bg-[#353c7b]">
           <div className="container py-10 mx-auto">
             <div className="flex flex-col items-center text-center">
               <Link href="/"  className="flex items-center">
@@ -16,36 +16,49 @@ const Footer = () => {
                 </span>
               </Link>
 
-              <div className="flex flex-wrap justify-center mt-6 ">
+              <div className="flex flex-wrap justify-center mt-6  text-darkGray">
                 <a
                   href=""
-                  className="mx-4 text-[#858585] transition-colors duration-300 hover:text-[#524FF5]"
+                  className="mx-4  transition-colors duration-300 hover:text-[#524FF5]"
                 >
                   Home
                 </a>
                 <a
                   href=""
-                  className="mx-4 text-[#858585] transition-colors duration-300 hover:text-[#524FF5]"
+                  className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
+                >
+              Service
+                </a>
+                <a
+                  href=""
+                  className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
                 >
                   About
                 </a>
                 <a
                   href=""
-                  className="mx-4 text-[#858585] transition-colors duration-300 hover:text-[#524FF5]"
+                  className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
                 >
                   Terms & Condition
                 </a>
                 <a
                   href=""
-                  className="mx-4 text-[#858585] transition-colors duration-300 hover:text-[#524FF5]"
+                  className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
                 >
                   Privacy Policy
                 </a>
+                <a
+                  href=""
+                  className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
+                >
+                  Book Demo
+                </a>
+                
               </div>
             </div>
 
             <div className="px-6 -mb-2">
-              <hr className="border-[#49505A] my-8" />
+              <hr className="border-text-darkGray mb-3 mt-8" />
 
               <div className="flex flex-col items-center sm:flex-row sm:justify-between">
                 <p className=" text-[#858585] dark:text-gray-300">

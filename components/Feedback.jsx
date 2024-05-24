@@ -5,6 +5,8 @@ import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 // import { Rating } from "@smastrom/react-rating";
 // import "@smastrom/react-rating/style.css";
+import { FaStar } from "react-icons/fa";
+
 
 const Feedback = () => {
 
@@ -63,11 +65,15 @@ const Feedback = () => {
   ];
 
   return (
-    <div className="py-10">
-       <div>
-            <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">Meet the Team behind Anolipi Digital</h1>
-            <h3 className="text-center text-[#d5d7dd] font-medium mb-8">Discover essential tools for successful trading. From market insights to user-friendly platforms, we offer everything you need to trade with confidence.</h3>
-        </div>
+    <div className="mt-32">
+        <div>
+        <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">
+        Client Success Stories
+        </h1>
+        <h3 className="text-center text-[#d5d7dd] font-medium mb-8 mx-20">
+        Hear directly from our satisfied clients. Discover what our clients have to say.
+        </h3>
+      </div>
       <Swiper
         slidesPerView={20}
         spaceBetween={5}
@@ -94,7 +100,7 @@ const Feedback = () => {
       >
         {staticData.map((review) => (
           <SwiperSlide key={review._id}>
-            <div className="min-h-52 bg-gradient-to-b from-darkOne to-darkTwo  border border-b-transparent border-darkThree flex gap-3 rounded-xl shadow hover:shadow-2xl p-5 my-10 transition-all hover:-translate-y-[6px] duration-500 ease-in-out">
+            <div className="min-h-52 bg-gradient-to-b  border border-b-white border-white flex gap-3 rounded-xl shadow hover:shadow-2xl p-5 my-10 transition-all hover:-translate-y-[6px] duration-500 ease-in-out">
               <Image
                 className="w-12 h-12 rounded-full"
                 src={review.photo}
@@ -104,7 +110,7 @@ const Feedback = () => {
               />
               <div className="w-full">
                 <div className="w-full flex justify-between items-center">
-                  <h3 className="font-semibold text-primary">
+                  <h3 className="text-white font-medium mb-1 text-xl mt-2">
                     {review.reviewerName}
                   </h3>
                   {/* <Rating
@@ -112,9 +118,15 @@ const Feedback = () => {
                     value={review.rating}
                     readOnly
                   /> */}
+                  <div className="flex gap-1 text-secondary text-xl">
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  <FaStar />
+                  </div>
                 </div>
                 <p className="text-xs">{review.timestamp ? new Date(review.timestamp).toLocaleString('en-US', dateFormatterOptions) : 'No timestamp'}</p>
-                <p className="text-sm mt-3" style={{ textAlign: 'justify' }}>{review.feedback} </p>
+                <p className="text-[#d5d7dd] font-medium mt-3" style={{ textAlign: 'justify' }}>{review.feedback} </p>
               </div>
             </div>
           </SwiperSlide>

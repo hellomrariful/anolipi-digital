@@ -7,10 +7,10 @@ import Image from "next/image";
 
 const Team = () => {
   return (
-    <div className="mt-20 text-center">
+    <div className="mt-32 text-center">
         <div>
             <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">Meet the Team behind Anolipi Digital</h1>
-            <h3 className="text-center text-[#d5d7dd] font-medium mb-8">Discover essential tools for successful trading. From market insights to user-friendly platforms, we offer everything you need to trade with confidence.</h3>
+            <h3 className="text-center text-[#d5d7dd] font-medium mb-8 mx-20">Discover our dedicated individuals driving Anolipi Digital&apos;s success. Our talented team brings expertise, creativity, and passion to every project, ensuring exceptional results and client satisfaction.</h3>
         </div>
       <div
         data-aos="fade-up"

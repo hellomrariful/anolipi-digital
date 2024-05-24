@@ -22,12 +22,14 @@ export default function Home() {
           <Banner />
           <Step />
           <Service />
-          <WhyAnolipi />
           <Expertise />
-          <Team />
-          <CTA />
-          <Feedback />
+          <WhyAnolipi />
           <Impact />
+          <Team />
+          
+          <Feedback />
+ 
+          <CTA />
           <Map />
         </div>
       </div>

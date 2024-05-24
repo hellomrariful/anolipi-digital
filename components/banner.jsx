@@ -35,14 +35,14 @@ const banner = () => {
         width={300}
         height={300}
       />
-
+{/* 
       <Image
         src="https://i.postimg.cc/MZc4kDkp/circle.png"
         className="circle"
         alt="Circle"
         width={300}
         height={300}
-      />
+      /> */}
       
       {/* Banner Text */}
       <div className="mt-36 text-center">

@@ -12,15 +12,13 @@ const Service = () => {
     <div className="mt-32">
       <div>
         <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">
-          Service We Offer
+        Services We Provide
         </h1>
-        <h3 className="text-center text-[#d5d7dd] font-medium mb-8">
-          Discover essential tools for successful trading. From market insights
-          to user-friendly platforms, we offer everything you need to trade with
-          confidence.
+        <h3 className="text-center text-[#d5d7dd] font-medium mb-8 mx-20">
+        Maximize your business growth with our expert digital services. From strategic insights to seamless implementation, we provide everything you need for online success.
         </h3>
       </div>
-      <div className="grid 2xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-6 mt-10 text-darkGray">
+      <div className="grid 2xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-6 mt-12 text-darkGray">
         {/* cart 1  */}
         <div className="overflow-hidden 3xl:h-44 transition-all hover:-translate-y-[6px] bg-gradient-to-b from-tertiary to-primary  border border-b-primary border-darkThree p-6 rounded-xl text-white duration-500 ease-in-out">
           <div className="w-full flex items-center justify-start gap-3">
