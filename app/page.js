@@ -29,19 +29,8 @@ export default function Home() {
           <Map />
         </div>
       </div>
-
-
-
-
-
       <Footer />
     </div>
 
   );
 }
-
-// <div className="hero2">
-// <div className='mx-auto container'>
-//   <Team />
-// </div>
-// </div>
