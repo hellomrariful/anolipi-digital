@@ -17,7 +17,7 @@ export default function Home() {
       <div className='hero'>
         <div className="mx-auto container">
           <Navbar />
-          <Banner />
+          <Banner></Banner>
           <Step />
           <Service />
           <Expertise />

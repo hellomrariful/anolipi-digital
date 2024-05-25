@@ -1,10 +1,10 @@
 import React from "react";
-import Image from "next/image";
 import Button from "./Button";
+import Image from "next/image";
 
 const Banner = () => {
   return (
-    <div className="">
+    <div>
       {/* background */}
       <Image
         src="https://i.postimg.cc/4x12v2cB/triangle-top.png"
@@ -20,13 +20,6 @@ const Banner = () => {
         width={300}
         height={300}
       />
-      {/* <Image
-        src="https://i.postimg.cc/MZc4kDkp/circle.png"
-        className="circle1"
-        alt="Circle"
-        width={300}
-        height={300}
-      /> */}
 
       <Image
         src="https://i.postimg.cc/WpQyskj6/triangle-left.png"
@@ -35,14 +28,6 @@ const Banner = () => {
         width={300}
         height={300}
       />
-      {/* 
-      <Image
-        src="https://i.postimg.cc/MZc4kDkp/circle.png"
-        className="circle"
-        alt="Circle"
-        width={300}
-        height={300}
-      /> */}
 
       {/* Banner Text */}
       <div className="mt-36 text-center">
@@ -103,19 +88,6 @@ const Banner = () => {
           </Button>
         </div>
       </div>
-
-      {/* <div className="">
-        <h1 className="text-6xl font-bold"></h1>
-        <p className="w-[580px] mt-3 mb-7">
-          We provide innovative digital marketing solutions designed to enhance
-          your brand&apos;s presence and drive business growth. Partner with us
-          to transform your vision into reality with tailored strategies and
-          expert execution.
-        </p>
-        <a href="/" className="btn">
-          Schedule A Meeting
-        </a>
-      </div> */}
     </div>
   );
 };
