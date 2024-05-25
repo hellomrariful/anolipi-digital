@@ -9,7 +9,7 @@ import Impact from '@/components/Impact';
 import WhyAnolipi from '@/components/WhyAnolipi';
 import Expertise from '@/components/Expertise';
 import Step from '@/components/Step';
-import Banner from '@/components/Banner';
+// import Banner from '@/components/Banner';
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
       <div className='hero'>
         <div className="mx-auto container">
           <Navbar />
-          <Banner />
+          {/* <Banner /> */}
           <Step />
           <Service />
           <Expertise />
