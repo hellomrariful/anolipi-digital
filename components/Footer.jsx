@@ -4,9 +4,9 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="text-white">
+    <div className="text-white ">
       <div className="">
-        <footer className="bg-[#353c7b]">
+        <footer className="bg-gradient-to-br from-[#a600fe] to-[#a600fe]">
           <div className="container py-10 mx-auto">
             <div className="flex flex-col items-center text-center">
               <Link href="/"  className="flex items-center">

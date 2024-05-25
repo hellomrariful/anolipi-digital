@@ -11,7 +11,7 @@
 .hero {
   width: 100%;
   min-height: 70vh;
-  background: linear-gradient(45deg, #343f75, #4d19db);
+  background: linear-gradient(90deg, #a600fe, #343f75);
   padding-left: 10%;
   padding-right: 10%;
   box-sizing: border-box;
