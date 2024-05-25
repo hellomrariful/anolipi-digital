@@ -1,5 +1,4 @@
 import Navbar from '@/components/Navbar';
-import Banner from '@/components/Banner';
 import Footer from '@/components/Footer';
 import Team from '@/components/Team';
 import Service from '@/components/Service';
@@ -10,6 +9,7 @@ import Impact from '@/components/Impact';
 import WhyAnolipi from '@/components/WhyAnolipi';
 import Expertise from '@/components/Expertise';
 import Step from '@/components/Step';
+import Banner from '@/components/Banner';
 
 export default function Home() {
   return (

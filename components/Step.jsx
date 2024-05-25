@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Icon1 from "../asset/icon-01.svg";
-import Icon2 from "../asset/icon-02.svg";
-import Icon3 from "../asset/icon-03.svg";
+import Icon2 from "../asset/Icon-02.svg";
+import Icon3 from "../asset/Icon-03.svg";
 
 const Step = () => {
   return (
