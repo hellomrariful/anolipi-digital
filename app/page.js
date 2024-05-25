@@ -13,7 +13,7 @@ import Banner from '@/components/Banner';
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <div className='hero'>
         <div className="mx-auto container">
           <Navbar />
@@ -31,6 +31,5 @@ export default function Home() {
       </div>
       <Footer />
     </div>
-
   );
 }
