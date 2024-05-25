@@ -14,8 +14,6 @@ import Step from '@/components/Step';
 export default function Home() {
   return (
     <div >
-{/* area of expertise ek pase with image, er arekpase why choose anolipi */}
-
       <div className='hero'>
         <div className="mx-auto container">
           <Navbar />
@@ -26,9 +24,7 @@ export default function Home() {
           <WhyAnolipi />
           <Impact />
           <Team />
-          
           <Feedback />
- 
           <CTA />
           <Map />
         </div>

@@ -19,10 +19,11 @@ const Step = () => {
           />
 
           <h3 className="text-white font-medium mb-1 text-xl mt-2">
-          Creative Thinking
+            Creative Thinking
           </h3>
           <p className="text-sm font-medium text-darkGray">
-          Embrace innovation and creativity to elevate your brand&apos;s marketing strategies.
+            Embrace innovation and creativity to elevate your brand&apos;s
+            marketing strategies.
           </p>
         </div>
 
@@ -37,10 +38,11 @@ const Step = () => {
             className="bg-[#810def] p-3 rounded-sm"
           />
           <h3 className="text-white font-medium mb-1 text-xl mt-2">
-          Perfect Execution
+            Perfect Execution
           </h3>
           <p className="text-sm font-medium text-darkGray">
-          Ensure flawless implementation of your marketing campaigns for maximum impact.
+            Ensure flawless implementation of your marketing campaigns for
+            maximum impact.
           </p>
         </div>
 
@@ -57,7 +59,8 @@ const Step = () => {
             Increased Growth
           </h3>
           <p className="text-sm font-medium text-darkGray">
-          Experience significant growth and expansion through our tailored marketing solutions.
+            Experience significant growth and expansion through our tailored
+            marketing solutions.
           </p>
         </div>
       </div>

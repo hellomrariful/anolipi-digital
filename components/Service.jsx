@@ -18,7 +18,7 @@ const Service = () => {
         Maximize your business growth with our expert digital services. From strategic insights to seamless implementation, we provide everything you need for online success.
         </h3>
       </div>
-      <div className="grid 2xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-6 mt-12 text-darkGray">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 mt-12 text-darkGray">
         {/* cart 1  */}
         <div className="overflow-hidden 3xl:h-44 transition-all hover:-translate-y-[6px] bg-gradient-to-b from-tertiary to-primary  border border-b-primary border-darkThree p-6 rounded-xl text-white duration-500 ease-in-out">
           <div className="w-full flex items-center justify-start gap-3">
