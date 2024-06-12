@@ -33,7 +33,7 @@ const Impact = () => {
 
         <div className="flex items-center gap-8 justify-center mt-5">
           <div className="flex items-center gap-2">
-          <h1 className="text-white md:text-5xl text-4xl font-semibold">9M<span className="text-secondary font-bold md:text-5xl">+</span></h1> 
+          <h1 className="text-white md:text-5xl text-4xl font-semibold">5M<span className="text-secondary font-bold md:text-5xl">+</span></h1> 
             <div className="grid uppercase">
               <h1 className="place-self-start font-semibold">Revenue</h1>
               <h1 className="place-self-start font-semibold">Generated</h1>

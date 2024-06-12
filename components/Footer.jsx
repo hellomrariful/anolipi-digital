@@ -62,7 +62,7 @@ const Footer = () => {
 
               <div className="flex flex-col items-center sm:flex-row sm:justify-between">
                 <p className=" text-[#858585] dark:text-gray-300">
-                  © Anolipi Digital LLC 2023. All Rights Reserved.
+                  © Anolipi Digital LLC 2024. All Rights Reserved.
                 </p>
 
                 <div className="flex  -mx-2 md:mt-0 mt-3">
