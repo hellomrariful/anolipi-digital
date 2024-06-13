@@ -17,23 +17,18 @@ const Footer = () => {
               </Link>
 
               <div className="flex flex-wrap justify-center mt-6  text-darkGray">
+               
                 <a
                   href=""
-                  className="mx-4  transition-colors duration-300 hover:text-[#524FF5]"
+                  className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
                 >
-                  Home
+              About
                 </a>
                 <a
                   href=""
                   className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
                 >
-              Service
-                </a>
-                <a
-                  href=""
-                  className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
-                >
-                  About
+                  Service
                 </a>
                 <a
                   href=""
@@ -41,6 +36,7 @@ const Footer = () => {
                 >
                   Terms & Condition
                 </a>
+                
                 <a
                   href=""
                   className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
@@ -49,9 +45,15 @@ const Footer = () => {
                 </a>
                 <a
                   href=""
+                  className="mx-4  transition-colors duration-300 hover:text-[#524FF5]"
+                >
+                  Return Policy
+                </a>
+                <a
+                  href=""
                   className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
                 >
-                  Book Demo
+                  Book a Demo
                 </a>
                 
               </div>
@@ -74,14 +76,14 @@ const Footer = () => {
                     <FaGithub></FaGithub>
                   </a>
                   <a
-                    href="https://www.facebook.com/hellomrariful.id"
+                    href="https://www.facebook.com/Anolipi.digital"
                     className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
                     aria-label="GitHub"
                   >
                     <FaFacebook />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/hellomrariful/"
+                    href="https://linkedin.com/company/anolipi/"
                     className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
                     aria-label="Linkedin"
                   >

@@ -1,6 +1,6 @@
-import Trainer1 from "../asset/Rakibul-Islam.jpeg";
-import Trainer2 from "../asset/Ariful-Islam.png";
-import Trainer3 from "../asset/T-01-71d2781a.png";
+import Person1 from "../asset/Rakibul-Islam.jpeg";
+import Person2 from "../asset/Ariful-Islam.png";
+import Person3 from "../asset/Shariful-Islam.png";
 import {
   FaInstagram,
   FaFacebook,
@@ -37,7 +37,7 @@ const Team = () => {
             <div className="bg-[#D3D3D3]">
               <Image
                 className="mx-auto w-full h-full object-cover"
-                src={Trainer1}
+                src={Person1}
                 alt="profile-picture"
                 width={300}
                 height={300}
@@ -57,27 +57,28 @@ const Team = () => {
               </p>
 
               <div className="flex justify-center text-xl mt-4">
-                <a
-                  href="https://github.com/hellomrariful"
-                  className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
-                  aria-label="GitHub"
-                >
-                  <FaGithub></FaGithub>
-                </a>
-                <a
-                  href="https://www.facebook.com/erakibul"
-                  className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
-                  aria-label="GitHub"
-                >
-                  <FaFacebook />
-                </a>
-                <a
+              <a
                   href="https://www.linkedin.com/in/rakibul-islam-692069258/"
                   className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
                   aria-label="Linkedin"
                 >
                   <FaLinkedin />
                 </a>
+                <a
+                  href="https://x.com/qrakibul"
+                  className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
+                  aria-label="X"
+                >
+                  <FaTwitter />
+                </a>
+                <a
+                  href="https://www.facebook.com/erakibul"
+                  className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
+                  aria-label="Facebook"
+                >
+                  <FaFacebook />
+                </a>
+               
               </div>
             </div>
           </div>
@@ -86,7 +87,7 @@ const Team = () => {
             <div className="bg-[#D3D3D3]">
               <Image
                 className="mx-auto w-full h-full object-cover"
-                src={Trainer2}
+                src={Person2}
                 alt="profile-picture"
                 width={300}
                 height={300}
@@ -134,7 +135,7 @@ const Team = () => {
             <div className="bg-[#D3D3D3]">
               <Image
                 className="mx-auto w-full h-full object-cover"
-                src={Trainer2}
+                src={Person3}
                 alt="profile-picture"
                 width={300}
                 height={300}
@@ -144,13 +145,12 @@ const Team = () => {
             <div className="text-white">
               <div className="mt-5">
                 <h4 className="text-[22px] text-secondary font-semibold text-center">
-                  Ariful Islam
+                  Sariful Islam
                 </h4>
-                <h2 className="font-bold">Software Engineer</h2>
+                <h2 className="font-bold">UI/UX Specialist</h2>
               </div>
               <p className="font-medium mt-3 text-[#858585]">
-                Meet Ariful, our innovational software engineer who turns
-                complex problems into elegant & Efficient solutions.
+              Meet Shariful, our dedicated UI/UX Designer,  is the driving force behind our brand&rsquo;s and success.
               </p>
               <div className="flex justify-center text-xl mt-4">
                 <a
@@ -161,7 +161,7 @@ const Team = () => {
                   <FaGithub></FaGithub>
                 </a>
                 <a
-                  href="https://www.facebook.com/hellomrariful.id"
+                  href="https://www.facebook.com/shariful.islam.me"
                   className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
                   aria-label="GitHub"
                 >

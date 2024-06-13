@@ -15,9 +15,9 @@ const Navbar = () => {
   const NavLinks = (
     <nav className="flex gap-3 md:gap-2 lg:gap-10 lg:text-xl text-[18px]">
       <Link href="/">Home</Link>
-      <Link href="/Contact">Contact</Link>
-      <Link href="/Service">Service</Link>
-      <Link href="/About Us">About Us</Link>
+      <Link href="/">Contact</Link>
+      <Link href="/">Service</Link>
+      <Link href="/">About Us</Link>
     </nav>
   );
 
@@ -78,13 +78,13 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="block text-xl font-medium hover:text-secondary">
-              <Link href="/Contact">Contact</Link>
+              <Link href="/">Contact</Link>
             </li>
             <li className="block text-xl font-medium hover:text-secondary">
-              <Link href="/Service">Service</Link>
+              <Link href="/">Service</Link>
             </li>
             <li className="block text-xl font-medium hover:text-secondary">
-              <Link href="/About Us">About Us</Link>
+              <Link href="/">About Us</Link>
             </li>
           </ul>
           <Button className="px-4 text-center flex justify-end mx-auto mb-4">
