@@ -1,5 +1,5 @@
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+"use client"
+import { useState, useEffect } from 'react';
 import Team from '@/components/Team';
 import Service from '@/components/Service';
 import CTA from '@/components/CTA';
@@ -11,16 +11,29 @@ import Expertise from '@/components/Expertise';
 import Step from '@/components/Step';
 import Button from "../components/Button";
 import Image from "next/image";
+import { PopupModal } from "react-calendly";
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [rootElement, setRootElement] = useState(null);
+
+  useEffect(() => {
+    setRootElement(document.getElementById("__next"));
+  }, []);
+
+  const handleOpen = () => {
+    setIsOpen(true);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div>
-      <div >
+      <div>
         <div className="mx-auto container">
-         
-
           {/* banner section */}
-
           <div>
             {/* background */}
             <Image
@@ -37,7 +50,6 @@ export default function Home() {
               width={300}
               height={300}
             />
-
             <Image
               src="https://i.postimg.cc/WpQyskj6/triangle-left.png"
               className="triangle3"
@@ -45,10 +57,12 @@ export default function Home() {
               width={300}
               height={300}
             />
-
             {/* Banner Text */}
             <div className="mt-36 text-center">
-              <button className="mb-5 justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-white hover:text-black h-10 bg-[#810def] text-white px-6 py-3 inline-flex items-center space-x-2 rounded">
+              <button
+                className="mb-5 justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-white hover:text-black h-10 bg-[#810def] text-white px-6 py-3 inline-flex items-center space-x-2 rounded"
+                onClick={handleOpen}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -66,8 +80,7 @@ export default function Home() {
                 <span>Drop us a Line and book a Demo</span>
               </button>
               <h1 className="lg:text-5xl md:text-3xl text-2xl font-bold mb-3">
-                Delivering <span className="text-secondary">Game-Changing</span>{" "}
-                <br /> Marketing Solutions
+                Delivering <span className="text-secondary">Game-Changing</span> <br /> Marketing Solutions
               </h1>
               <h3 className="md:text-xl text-[18px] font-medium text-gray-100">
                 Grow your brand faster with our cutting-edge marketing solutions.
@@ -100,6 +113,7 @@ export default function Home() {
                       <path d="M16 18h.01"></path>
                     </svg>
                   }
+                  onClick={handleOpen}
                 >
                   Schedule a Meeting
                 </Button>
@@ -118,6 +132,15 @@ export default function Home() {
           <Map />
         </div>
       </div>
+
+      {rootElement && (
+        <PopupModal
+          url="https://calendly.com/hello-mrariful"
+          onModalClose={handleClose}
+          open={isOpen}
+          rootElement={rootElement}
+        />
+      )}
     </div>
   );
 }
