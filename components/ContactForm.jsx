@@ -46,20 +46,20 @@ const ContactForm = () => {
     <form
       onSubmit={handleSubmit(onSubmit)}
       method="POST"
-      className="flex p-5 md:p-10 space-y-5 flex-col w-full"
+      className="flex p-5 md:p-10 space-y-5 flex-col w-full bg-gradient-to-br from-tertiary to-primary  border-b-primary hover:bg-gradient-to-tl"
     >
       <div className="md:flex justify-between gap-10">
         <div className="md:w-1/2 md:space-y-5">
           <div className="flex flex-col">
             <label
               htmlFor="name"
-              className="font-semibold text-primary text-xl pb-1"
+              className="font-semibold text-white text-xl pb-1"
             >
               Name
             </label>
             <input
               {...register("name", validationOptions.name)}
-              className="bg-quaternary border border-darkThree rounded-lg p-2"
+              className="bg-[#810def] rounded-lg p-2"
               type="text"
               placeholder="Name"
               id="name"
@@ -72,13 +72,13 @@ const ContactForm = () => {
           <div className="flex flex-col">
             <label
               htmlFor="phone"
-              className="font-semibold text-primary text-xl pb-1"
+              className="font-semibold text-white text-xl pb-1"
             >
               Phone
             </label>
             <input
               {...register("phone", validationOptions.phone)}
-              className="bg-quaternary border border-darkThree rounded-lg p-2"
+              className="bg-[#810def] rounded-lg p-2"
               type="text"
               placeholder="01 xx xxxx xxx"
               id="phone"
@@ -93,13 +93,13 @@ const ContactForm = () => {
           <div className="flex flex-col">
             <label
               htmlFor="email"
-              className="font-semibold text-primary text-xl pb-1"
+              className="font-semibold text-white text-xl pb-1"
             >
               Email
             </label>
             <input
               {...register("email", validationOptions.email)}
-              className="p-2 bg-quaternary border border-darkThree rounded-lg"
+              className="p-2 bg-[#810def] rounded-lg"
               type="email"
               placeholder="example@gmail.com"
               id="email"
@@ -112,13 +112,13 @@ const ContactForm = () => {
           <div className="flex flex-col">
             <label
               htmlFor="company"
-              className="font-semibold text-primary text-xl pb-1"
+              className="font-semibold text-white text-xl pb-1"
             >
               Company
             </label>
             <input
               {...register("company")}
-              className="bg-quaternary border border-darkThree rounded-lg p-2"
+              className="bg-[#810def] rounded-lg p-2"
               type="text"
               placeholder="Microsoft"
               id="company"
@@ -130,13 +130,13 @@ const ContactForm = () => {
       <div className="flex flex-col">
         <label
           htmlFor="message"
-          className="font-semibold text-primary text-xl pb-1"
+          className="font-semibold text-white text-xl pb-1"
         >
           Leave us a message:
         </label>
         <textarea
           {...register("message", validationOptions.message)}
-          className="bg-quaternary border border-darkThree w-full rounded-lg p-2"
+          className="bg-[#810def] w-full rounded-lg p-2"
           rows="5"
           placeholder="Your Message"
           id="message"
@@ -157,7 +157,7 @@ const ContactForm = () => {
         </div>
       )}
 
-      <Button type="submit">Send Message</Button>
+      <Button className="text-center flex justify-center" type="submit">Send Message</Button>
     </form>
   );
 };
