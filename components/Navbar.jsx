@@ -16,18 +16,9 @@ const Navbar = () => {
     <nav className="flex gap-3 md:gap-2 lg:gap-10 lg:text-xl text-[18px]">
        <Link href="/">Home</Link>
       <Link href="/contact">Contact</Link>
-      <ScrollLink
-      href="/"
-        to="service"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        className="cursor-pointer"
-      >
-        Service
-      </ScrollLink>
-      <Link href="/">About Us</Link>
+      <Link href="/service">Service</Link>
+      
+      <Link href="/about-us">About Us</Link>
     </nav>
   );
 
@@ -93,10 +84,10 @@ const Navbar = () => {
               <Link href="/contact">Contact</Link>
             </li>
             <li className="block text-xl font-medium hover:text-secondary">
-              <Link href="/">Service</Link>
+              <Link href="/service">Service</Link>
             </li>
             <li className="block text-xl font-medium hover:text-secondary">
-              <Link href="/">About Us</Link>
+              <Link href="/about-us">About Us</Link>
             </li>
           </ul>
           <Link href="/contact">

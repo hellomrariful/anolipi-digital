@@ -123,7 +123,7 @@ export default function Home() {
           <Expertise />
           <WhyAnolipi />
           <Impact />
-          <Team />
+          <Team showExploreButton={true} />
           <Feedback />
           <CTA />
           <Map />
