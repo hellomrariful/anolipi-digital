@@ -15,9 +15,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div className='hero'>
+      <div >
         <div className="mx-auto container">
-          <Navbar />
+         
 
           {/* banner section */}
 
@@ -118,7 +118,6 @@ export default function Home() {
           <Map />
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

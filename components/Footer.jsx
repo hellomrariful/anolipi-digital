@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="text-white ">
       <div className="">
-        <footer className="bg-gradient-to-br from-[#a600fe] to-[#a600fe]">
+        <footer >
           <div className="container py-10 mx-auto">
             <div className="flex flex-col items-center text-center">
               <Link href="/" className="flex items-center">
@@ -55,13 +55,13 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="grid justify-center item-center mx-auto mt-2 text-darkGray">
+            {/* <div className="grid justify-center item-center mx-auto mt-2 text-darkGray">
               <h3 className="mx-auto">Mail: digital@anolipi.com</h3>
               <h3 className="mx-auto">Contact: +1 (505) 509-0709</h3>
               <h3 className="mx-auto">
                 Location: 123 Street, Albuquerque, USA
               </h3>
-            </div>
+            </div> */}
 
             <div className="px-6 -mb-2">
               <hr className="border-text-darkGray mb-3 mt-8" />

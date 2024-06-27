@@ -14,18 +14,10 @@ const Navbar = () => {
 
   const NavLinks = (
     <nav className="flex gap-3 md:gap-2 lg:gap-10 lg:text-xl text-[18px]">
-      <ScrollLink
-        to="home"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        className="cursor-pointer"
-      >
-        Home
-      </ScrollLink>
+       <Link href="/">Home</Link>
       <Link href="/contact">Contact</Link>
       <ScrollLink
+      href="/"
         to="service"
         spy={true}
         smooth={true}

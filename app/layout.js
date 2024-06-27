@@ -1,4 +1,6 @@
 import "./globals.css";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 export const metadata = {
   title: "Anolipi Digital LLC",
@@ -10,11 +12,21 @@ export const metadata = {
   }
 };
 
-export default function RootLayout({ children }) {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body className="font-montserrat text-zinc-100"
-        suppressHydrationWarning={true}>{children}</body>
+        suppressHydrationWarning={true}>
+        <div className='hero'> 
+        <div className="min-h-screen flex flex-col">
+          <Navbar />
+          <main className="flex-grow">{children}</main>
+          <Footer />
+        </div>
+        </div>
+      </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
