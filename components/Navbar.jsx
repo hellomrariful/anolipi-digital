@@ -18,19 +18,20 @@ const Navbar = () => {
         to="home"
         spy={true}
         smooth={true}
-        offset={-70} // Adjust this offset value as needed
+        offset={-70}
         duration={500}
+        className="cursor-pointer"
       >
         Home
       </ScrollLink>
       <Link href="/contact">Contact</Link>
       <ScrollLink
-       className=" cursor-pointer"
         to="service"
         spy={true}
         smooth={true}
-        offset={-70} // Adjust this offset value as needed
+        offset={-70}
         duration={500}
+        className="cursor-pointer"
       >
         Service
       </ScrollLink>
@@ -50,13 +51,13 @@ const Navbar = () => {
           </span>
         </Link>
 
-        <div className="flex-1  justify-center hidden md:flex">{NavLinks}</div>
+        <div className="flex-1 justify-center hidden md:flex">{NavLinks}</div>
 
         <div className="flex items-center md:ml-auto">
           <button
             data-collapse-toggle="navbar-user"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover-bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             aria-controls="navbar-user"
             aria-expanded={isMobileMenuOpen}
             onClick={toggleMobileMenu}
@@ -97,7 +98,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="block text-xl font-medium hover:text-secondary">
-              <Link href="/">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
             <li className="block text-xl font-medium hover:text-secondary">
               <Link href="/">Service</Link>
