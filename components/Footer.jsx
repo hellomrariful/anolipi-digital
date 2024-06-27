@@ -56,16 +56,11 @@ const Footer = () => {
             </div>
 
             <div className="grid justify-center item-center mx-auto mt-2 text-darkGray">
-              <h3 className="mx-auto">
-                Mail: digital@anolipi.com
-              </h3>
-              <h3 className="mx-auto">
-                Contact: +1 (505) 509-0709
-              </h3>
+              <h3 className="mx-auto">Mail: digital@anolipi.com</h3>
+              <h3 className="mx-auto">Contact: +1 (505) 509-0709</h3>
               <h3 className="mx-auto">
                 Location: 123 Street, Albuquerque, USA
               </h3>
-
             </div>
 
             <div className="px-6 -mb-2">

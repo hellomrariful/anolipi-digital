@@ -9,7 +9,7 @@ import Icon6 from "../asset/research-removebg-preview.png";
 
 const Service = () => {
   return (
-    <div className="mt-32">
+    <div id="service" className="mt-32">
       <div>
         <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">
         Services We Provide

@@ -8,7 +8,7 @@ const WhyAnolipi = () => {
     <div className="flex flex-col lg:flex-row gap-5 mt-32  items-center">
       <div className="lg:w-1/2 w-full">
         <h1 className="text-3xl md:text-4xl font-semibold text-white pb-3">
-          Why Aolipi Digital ?
+          Why Anolipi Digital ?
         </h1>
         <h3 className="text-[#d5d7dd] font-medium mb-8">
           Aolipi Digital offer commitment to innovation and quality. We are

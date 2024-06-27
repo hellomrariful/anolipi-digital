@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
+import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 import Button from "./Button";
 import { GoSquareFill } from "react-icons/go";
-
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -14,9 +14,26 @@ const Navbar = () => {
 
   const NavLinks = (
     <nav className="flex gap-3 md:gap-2 lg:gap-10 lg:text-xl text-[18px]">
-      <Link href="/">Home</Link>
-      <Link href="/">Contact</Link>
-      <Link href="/">Service</Link>
+      <ScrollLink
+        to="home"
+        spy={true}
+        smooth={true}
+        offset={-70} // Adjust this offset value as needed
+        duration={500}
+      >
+        Home
+      </ScrollLink>
+      <Link href="/contact">Contact</Link>
+      <ScrollLink
+       className=" cursor-pointer"
+        to="service"
+        spy={true}
+        smooth={true}
+        offset={-70} // Adjust this offset value as needed
+        duration={500}
+      >
+        Service
+      </ScrollLink>
       <Link href="/">About Us</Link>
     </nav>
   );
@@ -27,8 +44,10 @@ const Navbar = () => {
         <Link href="/" className="flex flex-shrink-0">
           <span className="self-center lg:text-[32px] text-xl font-bold whitespace-nowrap">
             Anolipi Digital
-      </span>
-          <span className="text-[#ffc210] mt-[15px] sm:hidden"><GoSquareFill /></span>
+          </span>
+          <span className="text-[#ffc210] mt-[15px] sm:hidden">
+            <GoSquareFill />
+          </span>
         </Link>
 
         <div className="flex-1  justify-center hidden md:flex">{NavLinks}</div>
