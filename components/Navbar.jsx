@@ -49,7 +49,7 @@ const Navbar = () => {
           <button
             data-collapse-toggle="navbar-user"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-gray-200"
             aria-controls="navbar-user"
             aria-expanded={isMobileMenuOpen}
             onClick={toggleMobileMenu}
@@ -74,7 +74,7 @@ const Navbar = () => {
             </svg>
           </button>
 
-          <Link href="/">
+          <Link href="/contact">
             <Button className="hidden md:flex px-4">Get Quote</Button>
           </Link>
         </div>
@@ -99,9 +99,11 @@ const Navbar = () => {
               <Link href="/">About Us</Link>
             </li>
           </ul>
-          <Button className="px-4 text-center flex justify-end mx-auto mb-4">
-            Get Quote
-          </Button>
+          <Link href="/contact">
+      <Button className="px-4 text-center flex justify-end mx-auto mb-4">
+        Get Quote
+      </Button>
+    </Link>
         </div>
       )}
     </nav>

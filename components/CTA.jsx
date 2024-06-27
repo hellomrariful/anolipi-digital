@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import Link from "next/link";
 
 const CTA = () => {
   return (
@@ -12,8 +13,9 @@ const CTA = () => {
         Contact us today to get started on your journey to success!
       </h3>
       <div className="flex items-center gap-8 text-center justify-center mt-5">
+        <Link href='/contact'>
         <Button className="text-center text-white">Contact Us</Button>
-        {/* <Button>Get A Free Consultation</Button> */}
+        </Link>
       </div>
     </div>
   );

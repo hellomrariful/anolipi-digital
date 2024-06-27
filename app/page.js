@@ -55,9 +55,9 @@ export default function Home() {
             />
             {/* Banner Text */}
             <div className="mt-36 text-center">
+            <a href="mailto:digital@anolipi.com">
               <button
                 className="mb-5 justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-white hover:text-black h-10 bg-[#810def] text-white px-6 py-3 inline-flex items-center space-x-2 rounded"
-                onClick={handleOpen}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -75,6 +75,7 @@ export default function Home() {
                 </svg>
                 <span>Drop us a Line and book a Demo</span>
               </button>
+              </a>
               <h1 className="lg:text-5xl md:text-3xl text-2xl font-bold mb-3">
                 Delivering <span className="text-secondary">Game-Changing</span> <br /> Marketing Solutions
               </h1>

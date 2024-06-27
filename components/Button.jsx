@@ -1,5 +1,5 @@
 import React from 'react';
-import cn from './utils/cn'; // Assuming you have a utility function 'cn' to handle class names
+import cn from './utils/cn';
 
 const Button = ({ onClick, children, icon, className, ...restProps }) => {
   return (
