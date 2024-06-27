@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
+import Button from "@/components/Button";
 
 const NotFound = () => {
   return (
-    <div className="h-screen flex flex-col justify-center items-center bg-[#181e2c]">
+    <div className="mt-48 flex flex-col justify-center items-center">
       <div className="2xl:text-[150px] md:text-[100px] text-[90px] text-center font-bold relative -mt-10 text-white">
         404
       </div>
@@ -11,7 +12,9 @@ const NotFound = () => {
       Sorry, an unexpected error has occurred.
       </h1>
       <Link href="/">
-        <button className="text-center">BACK TO HOMEPAGE</button>
+        <Button>
+        BACK TO HOMEPAGE
+        </Button>
       </Link>
     </div>
   );

@@ -19,7 +19,7 @@ const Feedback = () => {
       photo: "https://img6.arthub.ai/657c01b7-938a.webp",
       reviewerName: "Alice Johnson",
       rating: 4,
-      timestamp: new Date(),
+      timestamp:  "Jun 20, 2024",
       feedback: "Anolipi Digital LLC transformed our online presence with their amazing web design and development services. Our website is now visually stunning and user-friendly."
     },
     {
@@ -27,7 +27,7 @@ const Feedback = () => {
       photo: "https://t4.ftcdn.net/jpg/02/69/98/97/360_F_269989795_HAzM8epvYDsKF4GZoVgB2RjFP5ilTRdb.jpg",
       reviewerName: "Michael Smith",
       rating: 4,
-      timestamp: new Date(),
+      timestamp:  "Jun 21, 2024",
       feedback: "Thanks to Anolipi's SEO expertise, our search rankings have significantly improved, leading to increased traffic and sales. Highly recommend their services!"
     },
     {
@@ -35,7 +35,7 @@ const Feedback = () => {
       photo: "https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.jpg?s=612x612&w=0&k=20&c=8ssXDNTp1XAPan8Bg6mJRwG7EXHshFO5o0v9SIj96nY=",
       reviewerName: "Sophia Brown",
       rating: 5,
-      timestamp: new Date(),
+      timestamp:  "Jun 24, 2024",
       feedback: "The team at Anolipi Digital LLC did an exceptional job with our social media advertising. Our brand engagement has soared thanks to their targeted campaigns."
     },
     {
@@ -43,7 +43,7 @@ const Feedback = () => {
       photo: "https://sb.kaleidousercontent.com/67418/1672x1018/6463a5af0d/screenshot-2022-05-24-at-15-22-28.png",
       reviewerName: "James Wilson",
       rating: 5,
-      timestamp: new Date(),
+      timestamp: "Jun 28, 2024",
       feedback: "Anolipi Digital LLC's e-commerce solutions have streamlined our operations and boosted our online store's efficiency. Their dropshipping services are top-notch."
     },
     {
@@ -51,7 +51,7 @@ const Feedback = () => {
       photo: "https://www.shutterstock.com/image-photo/close-head-shot-portrait-preppy-600nw-1433809418.jpg",
       reviewerName: "Emma Davis",
       rating: 5,
-      timestamp: new Date(),
+      timestamp:  "Jun 26, 2024",
       feedback: "Building our brand online was seamless with Anolipi Digital LLC. They took our concept and turned it into a powerful digital presence that resonates with our audience."
     },
     {
@@ -59,7 +59,7 @@ const Feedback = () => {
       photo: "https://i.pinimg.com/736x/f8/66/8e/f8668e5328cfb4938903406948383cf6.jpg",
       reviewerName: "Olivier Martinez",
       rating: 4,
-      timestamp: new Date(),
+      timestamp:  "Jun 27, 2024",
       feedback: "The insights and strategies provided by Anolipi Digital LLC have been invaluable. Their expertise has driven targeted traffic to our site, boosting our engagement and sales."
     },
     {
@@ -67,7 +67,7 @@ const Feedback = () => {
       photo: "https://www.corporatephotographerslondon.com/wp-content/uploads/2016/07/approachable-professional-headshots-London.jpg",
       reviewerName: "Liam Garcia",
       rating: 5,
-      timestamp: new Date(),
+      timestamp:  "Jun 22, 2024",
       feedback: "Anolipi's team is incredibly professional and knowledgeable. Their SEO strategies have improved our online visibility, making us stand out in a competitive market."
     },
     {
@@ -75,7 +75,7 @@ const Feedback = () => {
       photo: "https://i.pinimg.com/736x/07/33/ba/0733ba760b29378474dea0fdbcb97107.jpg",
       reviewerName: "Anderson Smith",
       rating: 5,
-      timestamp: new Date(),
+      timestamp:  "Jun 21, 2024",
       feedback: "Our social media engagement has never been better, thanks to Anolipi Digital LLC. Their advertising campaigns are creative and effective, driving real results."
     },
     {
@@ -83,7 +83,7 @@ const Feedback = () => {
       photo: "https://www.opticalexpress.co.uk/media/1064/man-with-glasses-smiling-looking-into-distance.jpg",
       reviewerName: "Ethan Thomas",
       rating: 4,
-      timestamp: new Date(),
+      timestamp:  "Jun 25, 2024",
       feedback: "The web development services from Anolipi Digital LLC exceeded our expectations. They delivered a website that not only looks great but also functions perfectly."
     },
     {
@@ -91,7 +91,7 @@ const Feedback = () => {
       photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_bZ0RMEKQwFWNcBftAWomZ3b_jqW4TjDBI9t_eMgVojqDXA8DGrFdeqYRxHey8ItOLh0&usqp=CAU",
       reviewerName: "Ava White",
       rating: 5,
-      timestamp: new Date(),
+      timestamp:  "Jun 20, 2024",
       feedback: "Anolipi Digital LLC has been a game-changer for our online business. Their comprehensive digital marketing services have driven growth and enhanced our brand's presence."
     }
   ];
@@ -158,7 +158,7 @@ const Feedback = () => {
                   <FaStar />
                   </div>
                 </div>
-                <p className="text-xs">{review.timestamp ? new Date(review.timestamp).toLocaleString('en-US', dateFormatterOptions) : 'No timestamp'}</p>
+                <p className="text-xs">{review.timestamp}</p>
                 <p className="text-[#d5d7dd] font-medium mt-3" style={{ textAlign: 'justify' }}>{review.feedback} </p>
               </div>
             </div>
