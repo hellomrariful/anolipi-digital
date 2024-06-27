@@ -132,7 +132,7 @@ const Team = () => {
           </div>
 
           <div className="p-4 border-2 border-gray-500 hover:border-secondary">
-            <div className="bg-[#D3D3D3]">
+            <div>
               <Image
                 className="mx-auto w-full h-full object-cover"
                 src={Person3}
