@@ -1,5 +1,5 @@
 "use client"
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Team from '@/components/Team';
 import Service from '@/components/Service';
 import CTA from '@/components/CTA';
@@ -15,11 +15,7 @@ import { PopupModal } from "react-calendly";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
-  const [rootElement, setRootElement] = useState(null);
-
-  useEffect(() => {
-    setRootElement(document.getElementById("__next"));
-  }, []);
+  const containerRef = useRef(null);
 
   const handleOpen = () => {
     setIsOpen(true);
@@ -30,7 +26,7 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div ref={containerRef}>
       <div>
         <div className="mx-auto container">
           {/* banner section */}
@@ -133,12 +129,12 @@ export default function Home() {
         </div>
       </div>
 
-      {rootElement && (
+      {containerRef.current && (
         <PopupModal
-          url="https://calendly.com/hello-mrariful"
+          url="https://calendly.com/hello-mrariful/free-digital-marketing-consultation"
           onModalClose={handleClose}
           open={isOpen}
-          rootElement={rootElement}
+          rootElement={containerRef.current}
         />
       )}
     </div>
