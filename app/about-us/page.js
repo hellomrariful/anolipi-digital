@@ -3,7 +3,7 @@ import Team from '@/components/Team';
 import Image from 'next/image';
 import google from "../../asset/google-ads.png";
 import facebook from "../../asset/Screenshot-removebg-preview.png";
-import adsense from "../../asset/Google-Adsense-Logo.jpg";
+// import adsense from "../../asset/Google-Adsense-Logo.jpg";
 
 
 const AboutUsPage = () => {
@@ -28,7 +28,7 @@ const AboutUsPage = () => {
     <Image className="h-fit bg-secondary rounded px-4 py-[10px] w-52 text-white" src={facebook} alt="" />
   </div>
   <div>
-    <Image className="bg-secondary rounded w-56 h-20 -py-20 px-8 text-white" src={adsense} alt="" />
+    <Image className="bg-secondary rounded w-56 h-20 -py-20 px-8 text-white" src={facebook} alt="" />
   </div>
 </div>
 
