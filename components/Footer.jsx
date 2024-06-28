@@ -42,25 +42,27 @@ const Footer = () => {
                 >
                   Service
                 </Link>
-                <a
-                  href=""
-                  className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
-                >
-                  Terms & Condition
-                </a>
 
-                <a
-                  href=""
+                <Link
+                  href="/terms-and-service"
                   className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
                 >
-                  Privacy Policy
-                </a>
-                <a
-                  href=""
-                  className="mx-4  transition-colors duration-300 hover:text-[#524FF5]"
+                 Terms & Condition
+                </Link>
+        
+                <Link
+                  href="/terms-and-service"
+                  className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
                 >
-                  Refund Policy
-                </a>
+                 Privacy Policy
+                </Link>
+
+                <Link
+                  href="/terms-and-service"
+                  className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
+                >
+                Refund Policy
+                </Link>
                 <button onClick={handleOpen}
                   className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
                 >
