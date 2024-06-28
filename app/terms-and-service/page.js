@@ -1,4 +1,3 @@
-
 const TermsAndConditions = () => {
     return (
         <>
@@ -8,7 +7,7 @@ const TermsAndConditions = () => {
                 <section>
                     <h2 className="text-secondary mt-5 text-[18px]">1. Acceptance of Terms</h2>
                     <p>
-                        By accessing or using Anolipi Digital's services, you agree to be bound by these Terms, our Privacy Policy, and any other guidelines, policies, or rules posted on the Site. If you do not agree to these Terms, you should not use our services.
+                        By accessing or using Anolipi Digital&apos;s services, you agree to be bound by these Terms, our Privacy Policy, and any other guidelines, policies, or rules posted on the Site. If you do not agree to these Terms, you should not use our services.
                     </p>
                 </section>
 
@@ -42,7 +41,7 @@ const TermsAndConditions = () => {
 
                 <section>
                     <h2 className="text-secondary mt-5 text-[18px]">5. Disclaimer of Warranties</h2>
-                    <p>The Site and its content are provided "as is" and "as available" without any warranties of any kind, either express or implied. We do not warrant that the Site will be uninterrupted or error-free, nor do we make any warranty as to the accuracy, completeness, reliability, or availability of the Site or any content.</p>
+                    <p>The Site and its content are provided as is and as available without any warranties of any kind, either express or implied. We do not warrant that the Site will be uninterrupted or error-free, nor do we make any warranty as to the accuracy, completeness, reliability, or availability of the Site or any content.</p>
                 </section>
 
                 <section>
@@ -52,7 +51,7 @@ const TermsAndConditions = () => {
 
                 <section>
                     <h2 className="text-secondary mt-5 text-[18px]">7. Indemnification</h2>
-                    <p>You agree to indemnify, defend, and hold harmless Anolipi Digital, its officers, directors, employees, and agents, from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms or your use of the Site.</p>
+                    <p>You agree to indemnify, defend, and hold harmless Anolipi Digital, its officers, directors, employees, and agents, from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys fees) arising out of or relating to your violation of these Terms or your use of the Site.</p>
                 </section>
 
                 <section>
@@ -65,9 +64,11 @@ const TermsAndConditions = () => {
                     <p>If you have any questions about these Terms, please contact us at:</p>
                     <address style={{ marginTop: '10px', fontStyle: 'normal' }}>
                         Anolipi Digital LLC<br />
+                        1209 Mountain Rd Pl NE Ste R<br />
+                        Albuquerque, NM 87110<br />
+                        United States of America<br />
                         Email: digital@anolipi.com<br />
                         Phone: +1 (505) 509-0709<br />
-                        Address: [Insert Physical Address]
                     </address>
                 </section>
             </div>

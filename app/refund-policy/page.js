@@ -65,9 +65,11 @@ const RefundPolicy = () => {
                     </p>
                     <address style={{ marginTop: '10px', fontStyle: 'normal' }}>
                         Anolipi Digital LLC<br />
+                        1209 Mountain Rd Pl NE Ste R<br />
+                        Albuquerque, NM 87110<br />
+                        United States of America<br />
                         Email: digital@anolipi.com<br />
                         Phone: +1 (505) 509-0709<br />
-                        Address: [Insert Physical Address]
                     </address>
                 </section>
             </div>
