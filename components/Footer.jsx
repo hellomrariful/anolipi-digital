@@ -51,7 +51,7 @@ const Footer = () => {
                 </Link>
         
                 <Link
-                  href="/terms-and-service"
+                  href="/privacy-policy"
                   className="mx-4 transition-colors duration-300 hover:text-[#524FF5]"
                 >
                  Privacy Policy

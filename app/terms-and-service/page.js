@@ -2,7 +2,7 @@
 const TermsAndConditions = () => {
     return (
         <>
-            <div className="mt-10">
+            <div className="my-10">
                 <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">Anolipi Digital Terms & Service</h1>
 
                 <section>

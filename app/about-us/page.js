@@ -1,10 +1,9 @@
 import React from 'react';
 import Team from '@/components/Team';
-import Link from 'next/link';
 import Image from 'next/image';
 import google from "../../asset/google-ads.png";
 import facebook from "../../asset/Screenshot-removebg-preview.png";
-import adsense from "../../asset/Google-Adsense-Logo.webp";
+import adsense from "../../asset/Google-Adsense-Logo.jpg";
 
 
 const AboutUsPage = () => {
