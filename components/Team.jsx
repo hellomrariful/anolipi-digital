@@ -55,7 +55,7 @@ const Team = ({ showExploreButton = true }) => {
                   <h2 className="font-bold">Founder & CEO</h2>
                 </div>
                 <p className="font-medium mt-3 text-[#858585]">
-                  Meet Rakibul, our creative visionary SEO, brings a unique
+                  Meet Rakibul, our creative visionary CEO, brings a unique
                   blend of innovation and passion to the team.
                 </p>
 
