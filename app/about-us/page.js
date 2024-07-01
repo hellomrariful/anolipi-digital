@@ -6,10 +6,9 @@ import facebook from "../../asset/Screenshot-removebg-preview.png";
 import googlePertner from "../../asset/google.png";
 
 export const metadata = {
-    title: "Our Services | Anolipi",
-    description: "Discover the range of digital marketing services offered by Anolipi Digital, designed to help your brand grow and succeed.",
+  title: "About Us | Anolipi",
+  description: "Learn about Anolipi Digital, our mission, and the passionate team behind our innovative digital marketing solutions.",
 };
-
 
 const AboutUsPage = () => {
   return (

@@ -5,7 +5,7 @@ import Trainer1 from "../asset/macbook-apple-imac-computer-39284.jpeg";
 
 const WhyAnolipi = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-5 mt-32  items-center">
+    <div className="flex flex-col lg:flex-row gap-5 lg:mt-32 mt-20  items-center">
       <div className="lg:w-1/2 w-full">
         <h1 className="text-3xl md:text-4xl font-semibold text-white pb-3">
           Why Anolipi Digital ?

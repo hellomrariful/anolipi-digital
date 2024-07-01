@@ -6,7 +6,7 @@ import Icon3 from "../asset/Icon-03.svg";
 
 const Step = () => {
   return (
-    <div className="mt-40">
+    <div className="lg:mt-40 mt-20">
       <div className="grid lg:grid-cols-3 gap-4 grid-cols-1">
         {/* Card 1 */}
         <div className="flex flex-col items-center p-6  border border-white rounded-xl text-center transition-all duration-500 ease-in-out hover:-translate-y-2 hover:shadow-lg">

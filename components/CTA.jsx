@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <div className="mt-32 border-2 border-gray-500 p-6 hover:border-secondary text-darkGray rounded px-10 py-10 text-center">
+    <div className="lg:mt-32 mt-20 border-2 border-gray-500 p-6 hover:border-secondary text-darkGray rounded px-10 py-10 text-center">
       <h1 className="2xl:text-3xl md:text-2xl text-xl text-center font-semibold text-zinc-100 mb-2">
         Ready to Boost Your Brand?
       </h1>

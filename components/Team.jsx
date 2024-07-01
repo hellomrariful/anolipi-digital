@@ -16,7 +16,7 @@ import Button from "./Button";
 
 const Team = ({ showExploreButton = true }) => {
   return (
-    <div className="mt-32 text-center">
+    <div className="lg:mt-32 mt-20 text-center">
       <div>
         <div>
           <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">

@@ -2,7 +2,7 @@ import React from "react";
 
 const Impact = () => {
   return (
-    <div className="mt-32 bg-gradient-to-br from-tertiary to-primary  border border-b-primary border-darkThree p-6 hover:bg-gradient-to-tl text-darkGray rounded px-10 py-10 text-center">
+    <div className="lg:mt-32 mt-20 bg-gradient-to-br from-tertiary to-primary  border border-b-primary border-darkThree p-6 hover:bg-gradient-to-tl text-darkGray rounded px-10 py-10 text-center">
       <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 mb-2">
         Our Impact
       </h1>

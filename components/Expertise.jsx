@@ -5,7 +5,7 @@ import Trainer1 from "../asset/macbook-apple-imac-computer-39284.jpeg";
 
 const Expertise = () => {
   return (
-    <div className="flex flex-col md:flex-row md:gap-3 mt-32 items-center">
+    <div className="flex flex-col md:flex-row md:gap-3 lg:mt-32 mt-20 items-center">
       <div className="lg:w-1/2 w-full">
         <h1 className="md:text-3xl lg:text-4xl text-2xl font-semibold text-white pb-3">
           Our Areas of Expertise
