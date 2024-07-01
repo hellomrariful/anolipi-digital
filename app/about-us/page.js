@@ -4,6 +4,19 @@ import Image from 'next/image';
 import google from "../../asset/google-ads.png";
 import facebook from "../../asset/Screenshot-removebg-preview.png";
 import googlePertner from "../../asset/google.png";
+import Person1 from "../../asset/Najmul1.png";
+import Person2 from "../../asset/nayan.png";
+import Person3 from "../../asset/avatar3.png";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaTwitter,
+  FaStar,
+  FaGithub,
+  FaLinkedin,
+  FaDribbble,
+  FaDiscord
+} from "react-icons/fa";
 
 export const metadata = {
   title: "About Us | Anolipi",
@@ -14,6 +27,152 @@ const AboutUsPage = () => {
   return (
     <div className='mb-10 -mt-20'>
       <Team showExploreButton={false} />
+
+      <div className="mt-10 text-center">
+      <div className="grid lg:grid-cols-3 gap-4">
+            <div className="p-4 border-2 border-gray-500 hover:border-secondary">
+              <div className="bg-[#D3D3D3]">
+                <Image
+                  className="mx-auto w-full h-full object-cover"
+                  src={Person1}
+                  alt="profile-picture"
+                  width={300}
+                  height={300}
+                />
+              </div>
+
+              <div className="text-white">
+                <div className="mt-5">
+                  <h4 className="text-[22px] text-secondary font-semibold text-center">
+                  Najmul Hasan
+                  </h4>
+                  <h2 className="font-bold">UI/UX Designer</h2>
+                </div>
+                <p className="font-medium mt-3 text-[#858585]">
+                  Meet Najmul, our dedicated UI/UX Designer, is the driving force behind our brand&apos;s visual appeal and success.
+                </p>
+
+                <div className="flex justify-center text-xl mt-4">
+                  <a
+                    href="https://www.linkedin.com/in/gdnajmul/"
+                    className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
+                    aria-label="Linkedin"
+                  >
+                    <FaLinkedin />
+                  </a>
+                  <a
+                    href="https://dribbble.com/gdnajmul"
+                    className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
+                    aria-label="X"
+                  >
+                    <FaDribbble/>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/gdnajmul"
+                    className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
+                    aria-label="Facebook"
+                  >
+                    <FaFacebook />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-4 border-2 border-gray-500 hover:border-secondary">
+              <div className="bg-[#D3D3D3]">
+                <Image
+                  className="mx-auto w-full h-full object-cover"
+                  src={Person2}
+                  alt="profile-picture"
+                  width={300}
+                  height={300}
+                />
+              </div>
+
+              <div className="text-white">
+                <div className="mt-5">
+                  <h4 className="text-[22px] text-secondary font-semibold text-center">
+                  Afran Nayan
+                  </h4>
+                  <h2 className="font-bold">Marketing Expert</h2>
+                </div>
+                <p className="font-medium mt-3 text-[#858585]">
+                Meet Afran, our marketing strategist who transforms complex challenges into effective & impactful solutions.
+                </p>
+                <div className="flex justify-center text-xl mt-4">
+                  <a
+                    href="https://github.com/hellomrariful"
+                    className="mx-2 text-[22px] transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
+                    aria-label="GitHub"
+                  >
+                   <FaDiscord />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100069718076051"
+                    className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
+                    aria-label="GitHub"
+                  >
+                    <FaFacebook />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/md-nayan-miah-34a438263/"
+                    className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
+                    aria-label="Linkedin"
+                  >
+                    <FaLinkedin />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-4 border-2 border-gray-500 hover:border-secondary">
+              <div>
+                <Image
+                  className="mx-auto w-full h-full object-cover"
+                  src={Person3}
+                  alt="profile-picture"
+                  width={300}
+                  height={300}
+                />
+              </div>
+
+              <div className="text-white">
+                <div className="mt-5">
+                  <h4 className="text-[22px] text-secondary font-semibold text-center">
+                    Forhad Alom
+                  </h4>
+                  <h2 className="font-bold">SEO Specialist</h2>
+                </div>
+                <p className="font-medium mt-3 text-[#858585]">
+                Meet Forhad Alom, our meticulous SEO strategist who optimizes digital landscapes for maximum visibility and impact.
+                </p>
+                <div className="flex justify-center text-xl mt-4">
+                  <a
+                    href="https://github.com/hellomrariful"
+                    className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
+                    aria-label="GitHub"
+                  >
+                    <FaGithub></FaGithub>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/shariful.islam.me"
+                    className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
+                    aria-label="GitHub"
+                  >
+                    <FaFacebook />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/hellomrariful/"
+                    className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
+                    aria-label="Linkedin"
+                  >
+                    <FaLinkedin />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
 
       <div className="mt-20">
       <div>
