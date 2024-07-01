@@ -1,8 +1,8 @@
 export const metadata = {
-    title: "About Us | Anolipi",
-    description: "About Us Anolipi",
-  };
-  
+    title: "Terms & Service | Anolipi",
+    description: "Review Anolipi Digital's Terms & Service to understand our guidelines and commitment to delivering exceptional digital marketing solutions.",
+};
+
 const TermsAndConditions = () => {
     return (
         <>

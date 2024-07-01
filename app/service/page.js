@@ -2,9 +2,9 @@ import React from 'react';
 import Service from '@/components/Service'
 
 export const metadata = {
-    title: "About Us | Anolipi",
-    description: "About Us Anolipi",
-  };
+    title: "Our Services | Anolipi",
+    description: "Discover the range of digital marketing services offered by Anolipi Digital, designed to help your brand grow and succeed.",
+};
 
 const page = () => {
     return (
