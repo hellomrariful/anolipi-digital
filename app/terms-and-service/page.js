@@ -1,3 +1,8 @@
+export const metadata = {
+    title: "About Us | Anolipi",
+    description: "About Us Anolipi",
+  };
+  
 const TermsAndConditions = () => {
     return (
         <>

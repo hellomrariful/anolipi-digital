@@ -1,3 +1,7 @@
+export const metadata = {
+    title: "fund policy | Anolipi",
+    description: "About Us Anolipi",
+  };
 
 const RefundPolicy = () => {
     return (

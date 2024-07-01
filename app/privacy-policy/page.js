@@ -1,3 +1,8 @@
+export const metadata = {
+    title: "Privacy Policy | Anolipi",
+    description: "Discover Anolipi Digital's commitment to your privacy and our comprehensive digital marketing solutions to elevate your brand.",
+};
+
 
 const PrivacyPolicy = () => {
     return (

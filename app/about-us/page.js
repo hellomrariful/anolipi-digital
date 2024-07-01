@@ -5,6 +5,10 @@ import google from "../../asset/google-ads.png";
 import facebook from "../../asset/Screenshot-removebg-preview.png";
 import googlePertner from "../../asset/google.png";
 
+export const metadata = {
+  title: "About Us | Anolipi",
+  description: "About Us Anolipi",
+};
 
 const AboutUsPage = () => {
   return (
