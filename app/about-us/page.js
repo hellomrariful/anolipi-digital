@@ -5,7 +5,7 @@ import google from "../../asset/google-ads.png";
 import facebook from "../../asset/Screenshot-removebg-preview.png";
 import googlePertner from "../../asset/google.png";
 import Person1 from "../../asset/Najmul1.png";
-import Person2 from "../../asset/nayan.png";
+import Person2 from "../../asset/Nayan.png";
 import Person3 from "../../asset/avatar3.png";
 import {
   FaInstagram,
