@@ -1,7 +1,8 @@
 export const metadata = {
-    title: "fund policy | Anolipi",
-    description: "About Us Anolipi",
-  };
+    title: "Refund Policy | Anolipi",
+    description: "Learn about Anolipi Digital's refund policy and our dedication to providing top-notch digital marketing services that meet your needs.",
+};
+
 
 const RefundPolicy = () => {
     return (
