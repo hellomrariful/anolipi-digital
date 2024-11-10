@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
           </a>
           {/* Address */}
-          <a href='' className="2xl:flex p-10 items-center text-white gap-7 shadow-md border lg:p-5 rounded-lg">
+          <a href='https://maps.app.goo.gl/U7THZVy4vZUtmXuCA' className="2xl:flex p-10 items-center text-white gap-7 shadow-md border lg:p-5 rounded-lg">
             <div className="bg-secondary rounded-full w-16 h-16 flex justify-center items-center lg:mb-0 mb-3 mx-auto">
 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
