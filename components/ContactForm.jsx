@@ -80,7 +80,7 @@ const ContactForm = () => {
               {...register("phone", validationOptions.phone)}
               className="bg-[#810def] rounded-lg p-2"
               type="text"
-              placeholder="01 xx xxxx xxx"
+              placeholder="+1 xx xxxx xxx"
               id="phone"
             />
             {errors.phone && (
@@ -120,7 +120,7 @@ const ContactForm = () => {
               {...register("company")}
               className="bg-[#810def] rounded-lg p-2"
               type="text"
-              placeholder="Microsoft"
+              placeholder="Anolipi Digital LLC"
               id="company"
             />
           </div>
@@ -138,7 +138,7 @@ const ContactForm = () => {
           {...register("message", validationOptions.message)}
           className="bg-[#810def] w-full rounded-lg p-2"
           rows="5"
-          placeholder="Your Message"
+          placeholder="Your Message Here"
           id="message"
         ></textarea>
         {errors.message && (
