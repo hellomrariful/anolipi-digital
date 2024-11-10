@@ -151,14 +151,15 @@ const Feedback = () => {
                     value={review.rating}
                     readOnly
                   /> */}
-                  <div className="flex gap-1 text-secondary text-xl">
+                  <div className="flex gap-1 text-secondary text-[16px]">
+                  <FaStar />
                   <FaStar />
                   <FaStar />
                   <FaStar />
                   <FaStar />
                   </div>
                 </div>
-                <p className="text-xs">{review.timestamp}</p>
+                {/* <p className="text-xs">{review.timestamp}</p> */}
                 <p className="text-[#d5d7dd] font-medium mt-3" style={{ textAlign: 'justify' }}>{review.feedback} </p>
               </div>
             </div>
