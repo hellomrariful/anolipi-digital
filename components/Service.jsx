@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Icon1 from "../asset/s-1.png";
 import Icon2 from "../asset/8026439.png";
-import Icon3 from "../asset/4860983.png";
-import Icon4 from "../asset/s-4.png";
+import Icon3 from "../asset/native.png";
+import Icon4 from "../asset/ppc.png";
 import Icon5 from "../asset/s-5.png";
 import Icon6 from "../asset/research-removebg-preview.png";
 
@@ -24,7 +24,7 @@ const Service = () => {
           <div className="w-full flex items-center justify-start gap-3">
             <Image
               src={Icon1}
-              alt="Trad Icon"
+              alt="Web Icon"
               width={40}
               height={40}
               placeholder="blur"
@@ -41,7 +41,7 @@ const Service = () => {
           <div className="w-full flex items-center justify-start gap-3">
             <Image
               src={Icon2}
-              alt="Trad Icon"
+              alt="Social Icon"
               width={40}
               height={40}
               placeholder="blur"
@@ -63,10 +63,10 @@ const Service = () => {
               height={40}
               placeholder="blur"
             />
-            <h3 className="font-semibold">Building Your Brand Online</h3>
+            <h3 className="font-semibold">Native Advertising Mastery</h3>
           </div>
           <p className="text-sm font-medium mt-3 text-darkGray">
-          Transforming your brand from concept to a full-fledged digital presence.
+          Creating native ads that naturally fit in, boosting clicks and engagement while delivering great results
           </p>
         </div>
 
@@ -80,10 +80,10 @@ const Service = () => {
               height={40}
               placeholder="blur"
             />
-            <h3 className="font-semibold">Seamless E-commerce Solutions</h3>
+            <h3 className="font-semibold">PPC Campaign Management</h3>
           </div>
           <p className="text-sm font-medium mt-3 text-darkGray">
-          Providing end-to-end dropshipping services to streamline your online store operations.
+          Maximize your ROI with tailored PPC campaigns that drive targeted traffic and optimize your ad spend for better results.
           </p>
         </div>
 
