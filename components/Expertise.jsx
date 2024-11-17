@@ -44,10 +44,10 @@ const Expertise = () => {
             <span className="text-2xl font-semibold text-secondary">
               <IoCheckmarkCircleSharp />
             </span>
-            <span className="text-xl font-semibold">Business Consulting</span>
+            <span className="text-xl font-semibold">Content Arbitrage</span>
           </div>
           <h3 className="ml-8 font-medium text-darkGray">
-            Guiding you through strategic decisions for growth
+          Maximizing profits by driving traffic through high-quality content and strategic monetization.
           </h3>
         </div>
       </div>
