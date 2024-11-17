@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Team from '@/components/Team';
 import Service from '@/components/Service';
+import Media from '@/components/Media';
 import CTA from '@/components/CTA';
 import Feedback from '@/components/Feedback';
 import Map from '@/components/Map/Map';
@@ -122,6 +123,7 @@ export default function Home() {
 
           <Step />
           <Service />
+          <Media />
           <Expertise />
           <WhyAnolipi />
           <Impact />
