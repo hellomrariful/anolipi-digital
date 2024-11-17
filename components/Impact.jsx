@@ -7,7 +7,7 @@ const Impact = () => {
         Our Impact
       </h1>
       <h3 className="text-center text-[#d5d7dd] font-medium mb-8 lg:mx-20">
-      Serving 25+ clients globally with a track record of completing 55+ successful projects and generating over 10M+ in revenue.
+      Serving 25+ clients globally with a track record of completing 55+ successful projects and generating over 5M+ in revenue.
       </h3>
 
       <div className="lg:flex justify-center items-center lg:gap-20 mt-5 grid gap-3 text-start">
