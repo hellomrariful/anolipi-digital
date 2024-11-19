@@ -1,10 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import meta from "../asset/meta-ads.png";
-import taboola from "../asset/taboola.png";
-import tiktok from "../asset/tiktok.jpg";
-import outbrain from "../asset/outbrain.jpg";
-import revcontent from "../asset/revcontent.png";
+import meta from "../asset/meta.webp";
+import google from "../asset/google.webp";
+import payoneer from "../asset/payoneer.webp";
+import taboola from "../asset/taboola.webp";
+import tiktok from "../asset/tiktok.webp";
+import outbrain from "../asset/outbrain.webp";
+import revcontent from "../asset/revcontent.webp";
 const Media = () => {
   return (
     <div className="mt-28">
@@ -22,6 +24,9 @@ const Media = () => {
     <Image className="w-44 h-24 object-contain" src={meta} alt="Meta" />
   </div>
   <div>
+    <Image className="w-44 h-24 object-contain" src={google} alt="Google" />
+  </div>
+  <div>
     <Image className="w-40 h-24 object-contain" src={taboola} alt="Taboola" />
   </div>
   <div>
@@ -32,6 +37,9 @@ const Media = () => {
   </div>
   <div>
     <Image className="w-44 h-24 object-contain" src={tiktok} alt="TikTok" />
+  </div>
+  <div>
+    <Image className="w-44 h-24 object-contain" src={payoneer} alt="Payoneer" />
   </div>
   
 </div>
