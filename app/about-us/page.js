@@ -7,6 +7,7 @@ import googlePertner from "../../asset/google.png";
 import Person1 from "../../asset/Najmul1.png";
 import Person2 from "../../asset/Nayan.png";
 import Person3 from "../../asset/avatar3.png";
+import Media from '@/components/Media';
 import {
   FaInstagram,
   FaFacebook,
@@ -25,10 +26,11 @@ export const metadata = {
 
 const AboutUsPage = () => {
   return (
-    <div className='mb-10 -mt-20'>
-      <Team showExploreButton={false} />
+    <div className='mb-10 -mt-20 mt-38'>
+      <Media />
+      {/* <Team showExploreButton={false} /> */}
 
-      <div className="mt-10 text-center">
+      {/* <div className="mt-10 text-center">
       <div className="grid lg:grid-cols-3 gap-4">
             <div className="p-4 border-2 border-gray-500 hover:border-secondary">
               <div className="bg-[#D3D3D3]">
@@ -172,9 +174,9 @@ const AboutUsPage = () => {
               </div>
             </div>
           </div>
-      </div>
+      </div> */}
 
-      <div className="mt-20">
+      {/* <div className="mt-20">
       <div>
         <h1 className="text-3xl md:text-4xl text-center font-semibold text-zinc-100 pb-3">
         Top Brands that worked with Us
@@ -195,7 +197,7 @@ const AboutUsPage = () => {
   </div>
 </div>
 
-      </div>
+      </div> */}
     </div>
   );
 };
