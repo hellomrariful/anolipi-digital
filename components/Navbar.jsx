@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 import Button from "./Button";
 import { GoSquareFill } from "react-icons/go";
-import Logo from "../public/Final-01.svg";
+import Logo from "../asset/Anolipi-Digital-Banner-Logo.png";
 import Image from "next/image";
 
 const Navbar = () => {
@@ -31,13 +31,12 @@ const Navbar = () => {
         <Image
               src={Logo}
               alt="Logo"
-              width={40}
-              height={40}
+             
             />
-          <span className="self-center lg:text-[32px] text-xl font-bold whitespace-nowrap">
+          {/* <span className="self-center lg:text-[32px] text-xl font-bold whitespace-nowrap">
           
           nolipi Digital
-          </span>
+          </span> */}
           <span className="text-[#ffc210] mt-[15px] sm:hidden">
             <GoSquareFill />
           </span>
