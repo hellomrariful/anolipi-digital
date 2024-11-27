@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 import Button from "./Button";
 import { GoSquareFill } from "react-icons/go";
-import Logo from "../asset/Anolipi-Digital-Banner-Logo.png";
+import Logo from "../asset/Anolipi Digital LLC.png";
 import Image from "next/image";
 
 const Navbar = () => {
@@ -34,7 +34,7 @@ const Navbar = () => {
           <Image
       src={Logo}
       alt="Logo"
-      className="lg:w-72 md:w-56 w-44"
+      className="lg:w-64 md:w-56 w-44"
     />
           </span>
           <span className="text-[#ffc210] mt-[15px] sm:hidden">
