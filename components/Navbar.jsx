@@ -28,15 +28,15 @@ const Navbar = () => {
     <nav className="">
       <div className="flex items-center justify-between mx-auto mt-8 mb-10">
         <Link href="/" className="flex flex-shrink-0">
-        <Image
-              src={Logo}
-              alt="Logo"
-             
-            />
-          {/* <span className="self-center lg:text-[32px] text-xl font-bold whitespace-nowrap">
+
+          <span className="self-center lg:text-[32px] text-xl font-bold whitespace-nowrap">
           
-          nolipi Digital
-          </span> */}
+          <Image
+      src={Logo}
+      alt="Logo"
+      className="lg:w-72 md:w-56 w-44"
+    />
+          </span>
           <span className="text-[#ffc210] mt-[15px] sm:hidden">
             <GoSquareFill />
           </span>
