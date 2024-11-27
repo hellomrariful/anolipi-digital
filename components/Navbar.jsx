@@ -4,6 +4,8 @@ import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 import Button from "./Button";
 import { GoSquareFill } from "react-icons/go";
+import Logo from "../public/Final-01.svg";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,8 +28,15 @@ const Navbar = () => {
     <nav className="">
       <div className="flex items-center justify-between mx-auto mt-8 mb-10">
         <Link href="/" className="flex flex-shrink-0">
+        <Image
+              src={Logo}
+              alt="Logo"
+              width={40}
+              height={40}
+            />
           <span className="self-center lg:text-[32px] text-xl font-bold whitespace-nowrap">
-            Anolipi Digital
+          
+          nolipi Digital
           </span>
           <span className="text-[#ffc210] mt-[15px] sm:hidden">
             <GoSquareFill />
