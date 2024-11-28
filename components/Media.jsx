@@ -23,9 +23,9 @@ const Media = () => {
   <div>
     <Image className="w-44 h-24 object-contain" src={meta} alt="Meta" />
   </div>
-  <div>
+  {/* <div>
     <Image className="w-44 h-24 object-contain" src={google} alt="Google" />
-  </div>
+  </div> */}
   <div>
     <Image className="w-40 h-24 object-contain" src={taboola} alt="Taboola" />
   </div>
@@ -38,9 +38,9 @@ const Media = () => {
   <div>
     <Image className="w-44 h-24 object-contain" src={tiktok} alt="TikTok" />
   </div>
-  <div>
+  {/* <div>
     <Image className="w-44 h-24 object-contain" src={payoneer} alt="Payoneer" />
-  </div>
+  </div> */}
   
 </div>
 
