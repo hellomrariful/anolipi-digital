@@ -45,7 +45,6 @@ const ContactForm = () => {
       });
       reset();
     } catch (error) {
-      // Error handling
       console.error("Email send error:", error);
       toast.error(`Send failed: ${error.message || "Unknown error"}`);
     } finally {
