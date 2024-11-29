@@ -4,7 +4,8 @@ import Link from "next/link";
 import { FaFacebook, FaLinkedin, FaMailBulk } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { PopupModal } from "react-calendly";
-
+import Logo from "../asset/Anolipi Digital LLC.png";
+import Image from "next/image";
 const Footer = () => {
 
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +27,12 @@ const Footer = () => {
             <div className="flex flex-col items-center text-center">
               <Link href="/" className="flex items-center">
                 {/* <img src={logo} className="h-12 mr-3" alt="" /> */}
-                <span className="text-3xl font-bold">Anolipi Digital LLC</span>
+                <span className="text-3xl font-bold"> 
+          <Image
+      src={Logo}
+      alt="Logo"
+      className="lg:w-64 md:w-56 w-44"
+    /></span>
               </Link>
 
               <div className="flex flex-wrap justify-center mt-6  text-darkGray">

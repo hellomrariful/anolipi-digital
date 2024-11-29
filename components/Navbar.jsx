@@ -37,9 +37,6 @@ const Navbar = () => {
       className="lg:w-64 md:w-56 w-44"
     />
           </span>
-          <span className="text-[#ffc210] mt-[15px] sm:hidden">
-            <GoSquareFill />
-          </span>
         </Link>
 
         <div className="flex-1 justify-center hidden md:flex">{NavLinks}</div>
