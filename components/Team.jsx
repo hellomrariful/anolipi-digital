@@ -5,7 +5,7 @@ import {
   FaInstagram,
   FaFacebook,
   FaTwitter,
-  FaStar,
+  FaDiscord,
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
@@ -101,10 +101,10 @@ const Team = ({ showExploreButton = true }) => {
                   <h4 className="text-[22px] text-secondary font-semibold text-center">
                     Ariful Islam
                   </h4>
-                  <h2 className="font-bold">Software Engineer</h2>
+                  <h2 className="font-bold">COO & Software Developer</h2>
                 </div>
                 <p className="font-medium mt-3 text-[#858585]">
-                  Meet Ariful, our innovational software engineer who turns
+                  Meet Ariful, our innovational software developer who turns
                   complex problems into elegant & Efficient solutions.
                 </p>
                 <div className="flex justify-center text-xl mt-4">
@@ -149,20 +149,19 @@ const Team = ({ showExploreButton = true }) => {
                   <h4 className="text-[22px] text-secondary font-semibold text-center">
                     Sariful Islam
                   </h4>
-                  <h2 className="font-bold">UI/UX Specialist</h2>
+                  <h2 className="font-bold">CFO & Media Buyer</h2>
                 </div>
                 <p className="font-medium mt-3 text-[#858585]">
-                  Meet Shariful, our dedicated UI/UX Designer, is the driving
-                  force behind our brand&rsquo;s and success.
+                Meet Shariful, our expert Media Buyer, who plays a vital role in elevating our brand&rsquo;s reach and success.
                 </p>
                 <div className="flex justify-center text-xl mt-4">
-                  <a
+                  {/* <a
                     href="https://github.com/hellomrariful"
                     className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
                     aria-label="GitHub"
                   >
-                    <FaGithub></FaGithub>
-                  </a>
+                    <FaGithub />
+                  </a> */}
                   <a
                     href="https://www.facebook.com/shariful.islam.me"
                     className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
@@ -171,11 +170,11 @@ const Team = ({ showExploreButton = true }) => {
                     <FaFacebook />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/hellomrariful/"
+                    href="https://discord.com/channels/@me/1249711411811057714"
                     className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
-                    aria-label="Linkedin"
+                    aria-label="Discoard"
                   >
-                    <FaLinkedin />
+                    <FaDiscord />
                   </a>
                 </div>
               </div>

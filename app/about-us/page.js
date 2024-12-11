@@ -27,10 +27,9 @@ export const metadata = {
 const AboutUsPage = () => {
   return (
     <div className='mb-10 -mt-20 mt-38'>
-      <Media />
-      {/* <Team showExploreButton={false} /> */}
+      <Team showExploreButton={false} />
 
-      {/* <div className="mt-10 text-center">
+     <div className="mt-10 text-center">
       <div className="grid lg:grid-cols-3 gap-4">
             <div className="p-4 border-2 border-gray-500 hover:border-secondary">
               <div className="bg-[#D3D3D3]">
@@ -48,7 +47,7 @@ const AboutUsPage = () => {
                   <h4 className="text-[22px] text-secondary font-semibold text-center">
                   Najmul Hasan
                   </h4>
-                  <h2 className="font-bold">UI/UX Designer</h2>
+                  <h2 className="font-bold">CPO & UI/UX Designer</h2>
                 </div>
                 <p className="font-medium mt-3 text-[#858585]">
                   Meet Najmul, our dedicated UI/UX Designer, is the driving force behind our brand&apos;s visual appeal and success.
@@ -96,16 +95,16 @@ const AboutUsPage = () => {
                   <h4 className="text-[22px] text-secondary font-semibold text-center">
                   Afran Nayan
                   </h4>
-                  <h2 className="font-bold">Marketing Expert</h2>
+                  <h2 className="font-bold">Media Buying & Marketing Expert</h2>
                 </div>
                 <p className="font-medium mt-3 text-[#858585]">
-                Meet Afran, our marketing strategist who transforms complex challenges into effective & impactful solutions.
+                Meet Afran, our Media Buying & Marketing Expert, crafting impactful strategies to amplify brand growth and success.
                 </p>
                 <div className="flex justify-center text-xl mt-4">
                   <a
-                    href="https://github.com/hellomrariful"
+                    href="https://discord.com/channels/@me/1250169048889819398"
                     className="mx-2 text-[22px] transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
-                    aria-label="GitHub"
+                    aria-label="Discord"
                   >
                    <FaDiscord />
                   </a>
@@ -143,38 +142,40 @@ const AboutUsPage = () => {
                   <h4 className="text-[22px] text-secondary font-semibold text-center">
                     Forhad Alom
                   </h4>
-                  <h2 className="font-bold">SEO Specialist</h2>
+                  <h2 className="font-bold">Media Buying & SEO Specialist</h2>
                 </div>
                 <p className="font-medium mt-3 text-[#858585]">
-                Meet Forhad Alom, our meticulous SEO strategist who optimizes digital landscapes for maximum visibility and impact.
+                Meet Forhad, our Media Buying & SEO Specialist, dedicated to enhancing visibility and driving impactful results in the digital space.
                 </p>
                 <div className="flex justify-center text-xl mt-4">
                   <a
-                    href="https://github.com/hellomrariful"
+                    href="https://discord.com/channels/@me/1258313462820376587"
                     className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
                     aria-label="GitHub"
                   >
-                    <FaGithub></FaGithub>
+                    <FaDiscord />
                   </a>
                   <a
-                    href="https://www.facebook.com/shariful.islam.me"
+                    href="https://www.facebook.com/mdforhad.reza.9655806"
                     className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
                     aria-label="GitHub"
                   >
                     <FaFacebook />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/hellomrariful/"
+                    href="https://www.instagram.com/itssforhad"
                     className="mx-2 text-xl transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover=text-blue-400"
-                    aria-label="Linkedin"
+                    aria-label="Instagram"
                   >
-                    <FaLinkedin />
+                    <FaInstagram />
                   </a>
                 </div>
               </div>
             </div>
           </div>
-      </div> */}
+      </div>
+
+      <Media />
 
       {/* <div className="mt-20">
       <div>
@@ -197,7 +198,7 @@ const AboutUsPage = () => {
   </div>
 </div>
 
-      </div> */}
+      </div>  */}
     </div>
   );
 };

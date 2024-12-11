@@ -127,7 +127,7 @@ export default function Home() {
           <Expertise />
           <WhyAnolipi />
           <Impact />
-          {/* <Team showExploreButton={true} /> */}
+          <Team showExploreButton={true} />
           <Feedback />
           <CTA />
           <Map />
