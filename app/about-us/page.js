@@ -27,9 +27,9 @@ export const metadata = {
 const AboutUsPage = () => {
   return (
     <div className='mb-10 -mt-20 mt-38'>
-      <Team showExploreButton={false} />
+      {/* <Team showExploreButton={false} /> */}
 
-     <div className="mt-10 text-center">
+     {/* <div className="mt-10 text-center">
       <div className="grid lg:grid-cols-3 gap-4">
             <div className="p-4 border-2 border-gray-500 hover:border-secondary">
               <div className="bg-[#D3D3D3]">
@@ -173,7 +173,7 @@ const AboutUsPage = () => {
               </div>
             </div>
           </div>
-      </div>
+      </div> */}
 
       <Media />
 
