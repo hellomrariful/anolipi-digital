@@ -120,7 +120,7 @@ const Footer = () => {
             </div>
             {containerRef.current && (
         <PopupModal
-          url="https://calendly.com/hello-mrariful/free-digital-marketing-consultation"
+          url="https://calendly.com/anolipi-digital/30min"
           onModalClose={handleClose}
           open={isOpen}
           rootElement={containerRef.current}
