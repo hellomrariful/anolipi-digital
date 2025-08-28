@@ -41,7 +41,7 @@ const RefundPolicy = () => {
                     <h2 className="text-secondary mt-5 text-[18px]">4. Refund Process</h2>
                     <h3 style={{ marginTop: '10px', color: '#d5d7dd' }}>4.1 Requesting a Refund</h3>
                     <p>
-                        To request a refund, please contact us at digital@anolipi.com with your order details and the reason for your request. We will review your request and notify you of the approval or rejection of your refund within [Insert Number] business days.
+                        To request a refund, please contact us at info@anolipidigital.com with your order details and the reason for your request. We will review your request and notify you of the approval or rejection of your refund within [Insert Number] business days.
                     </p>
                     <h3 style={{ marginTop: '10px', color: '#d5d7dd' }}>4.2 Approved Refunds</h3>
                     <p>
@@ -52,7 +52,7 @@ const RefundPolicy = () => {
                 <section>
                     <h2 className="text-secondary mt-5 text-[18px]">5. Exchanges</h2>
                     <p>
-                        We only replace items if they are defective or damaged. If you need to exchange an item for the same product, please contact us at digital@anolipi.com.
+                        We only replace items if they are defective or damaged. If you need to exchange an item for the same product, please contact us at info@anolipidigital.com.
                     </p>
                 </section>
 
@@ -73,7 +73,7 @@ const RefundPolicy = () => {
                         1209 Mountain Rd Pl NE Ste R<br />
                         Albuquerque, NM 87110<br />
                         United States of America<br />
-                        Email: digital@anolipi.com<br />
+                        Email: info@anolipidigital.com<br />
                         Phone: +1 (505) 509-0709<br />
                     </address>
                 </section>

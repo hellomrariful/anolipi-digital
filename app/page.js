@@ -58,7 +58,7 @@ export default function Home() {
             />
             {/* Banner Text */}
             <div className="lg:mt-36 mt-16 text-center">
-            <a href="mailto:digital@anolipi.com">
+            <a href="mailto:info@anolipidigital.com">
               <button
                 className="mb-5 justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-white hover:text-black h-10 bg-[#810def] text-white px-6 py-3 inline-flex items-center space-x-2 rounded"
               >

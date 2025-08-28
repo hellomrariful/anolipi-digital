@@ -32,7 +32,7 @@ const Contact = () => {
       <div className="mt-5 3xl:mx-24 border-2 border-gray-500 p-6 hover:border-secondary text-darkGray rounded py-10 mb-10">
         <div className="flex flex-col lg:flex-row justify-center gap-10 py-10">
           {/* Email */}
-          <a href='mailto:digital@anolipi.com' className="2xl:flex p-10 items-center text-white gap-7 shadow-md border lg:p-5 rounded-lg">
+          <a href='mailto:info@anolipidigital.com' className="2xl:flex p-10 items-center text-white gap-7 shadow-md border lg:p-5 rounded-lg">
             <div className="bg-secondary rounded-full w-16 h-16 flex justify-center items-center lg:mb-0 mb-3 mx-auto">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
@@ -41,7 +41,7 @@ const Contact = () => {
             </div>
             <div className="flex-1 text-white text-center lg:text-start">
               <p className="mt-2 font-semibold">Email:</p>
-              <h1 className="text-lg">digital@anolipi.com</h1>
+              <h1 className="text-lg">info@anolipidigital.com</h1>
             </div>
           </a>
           {/* Phone */}

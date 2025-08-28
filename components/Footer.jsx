@@ -78,7 +78,7 @@ const Footer = () => {
             </div>
 
             {/* <div className="grid justify-center item-center mx-auto mt-2 text-darkGray">
-              <h3 className="mx-auto">Mail: digital@anolipi.com</h3>
+              <h3 className="mx-auto">Mail: info@anolipidigital.com</h3>
               <h3 className="mx-auto">Contact: +1 (505) 509-0709</h3>
               <h3 className="mx-auto">
                 Location: 123 Street, Albuquerque, USA
@@ -95,7 +95,7 @@ const Footer = () => {
 
                 <div className="flex -mx-2 md:mt-0 mt-3 justify-center item-center ">
                   <a
-                    href="mailto:digital@anolipi.com"
+                    href="mailto:info@anolipidigital.com"
                     className="mx-2 text-[27px] -mt-1 transition-colors duration-300 dark:text-gray-300 hover:text-[#524FF5] dark:hover:text-blue-400"
                     aria-label="GitHub"
                   >

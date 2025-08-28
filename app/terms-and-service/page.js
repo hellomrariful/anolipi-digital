@@ -72,7 +72,7 @@ const TermsAndConditions = () => {
                         1209 Mountain Rd Pl NE Ste R<br />
                         Albuquerque, NM 87110<br />
                         United States of America<br />
-                        Email: digital@anolipi.com<br />
+                        Email: info@anolipidigital.com<br />
                         Phone: +1 (505) 509-0709<br />
                     </address>
                 </section>
